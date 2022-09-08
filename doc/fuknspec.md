@@ -1,5 +1,5 @@
 # **Funkcionális specifikáció**
-## 1. A rendszer céljai és nem céljai
+## 1. A rendszer céljai és nem céljai.
 
 ---
 ## 2. Jelenlegi helyzet leírása
