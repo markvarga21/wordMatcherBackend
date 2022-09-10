@@ -40,15 +40,15 @@
 Admin:Az admin ugyan úgy kitöltheti a tesztet vagy előröl kezdheti. Illetve ha kitölti a tesztet akkor megkaphatja ő is a választ, hogy jól vagy rosszul van kitöltve. Ez által az admin le tudja tesztelni a programot, hogy az megfelelően működik e. Vagyis az admin a felhasználó szerepkörével rendelkezik. Illetve ha nem elég a szavak száma akkor feltud vinni pár új magyar-angol szót a rendszerbe vagyis tudja bővíteni a szótárat egy külön kis panel segítségével ahova beírhatja a magyar szót és annak az angol megfelelőjét és egy gomb segítségével fel töltheti a szótárba.
 ---
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
-
+* A program mindig jelzi egy adott esetnél, azaz szópárosításnál, hogy valóban angol-magyar szavak vannak-e összehúzva. Ha igen, akkor "Helyes szópár" kerül kiírásra, ha nem, akkor viszont "Nem megfelelő angol-magyar szópár kerül kiírásra"
 ---
 ## 10. Képernyő tervek
-
+* Úgy nézne ki az alkalmazás, hogy a képernyő bal és jobb oldalára is le lenne rakva három-három doboz. A bal oldalra kell behúzgálni az angol szavakat, jobb oldalra pedig a magyar szavakat. Ha a felhasználó, vagy a vendég jól párosítja a szavakat, akkor egy felugró ablak fogadja majd, ami sikerességet fog mutatni, avagy pont az ellentétét vagyis hogy rossz volt a szavak párosítása.  
 ---
 ## 11. Forgatókönyvek
-
+* Futási időben egy szereplő figyelhető meg, aki az angol szót a magyar megfelelője mellé húzza.
 ---
 ## 12. Funkció – követelmény megfeleltetés
-
+* A funkció magát a projektnek a működését, funkcióját mutatja be, míg a követelmény a szabályt, és azt, hogy mik a követelményei annak, hogy elindítsuk a programunkat.
 ---
 ## 13. Fogalomszótár
