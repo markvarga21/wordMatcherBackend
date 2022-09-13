@@ -58,7 +58,9 @@ Admin:Az admin ugyan úgy kitöltheti a tesztet vagy előröl kezdheti. Illetve 
 ## 10. Képernyő tervek
 * Úgy nézne ki az alkalmazás, hogy a képernyő bal és jobb oldalára is le lenne rakva három-három doboz.
  A bal oldalra kell behúzgálni az angol szavakat, jobb oldalra pedig a magyar szavakat. Ha a felhasználó, vagy a vendég jól párosítja a szavakat, akkor egy felugróablak fogadja majd, ami sikerességet fog mutatni,
- avagy pont az ellentétét vagyis hogy rossz volt a szavak párosítása.  
+ avagy pont az ellentétét vagyis hogy rossz volt a szavak párosítása.
+* Az alkalmazás fő oldala: ![Fő oldal](./resource/mainPage.png)
+* Az alkalmazás egy párosítás után: ![Párosított](./resource/pairedPage.png)
 ---
 ## 11. Forgatókönyvek
 * Futási időben egy szereplő figyelhető meg. Az alkalmazást elindítva megjelenik egy üres kezelőfelület, ezután
