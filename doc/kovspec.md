@@ -34,8 +34,16 @@
 * A mai oktatási rendszer nem használja ki a 21. század technológia előnyeit és ezzel szemben erősen ragaszkodnak a könyv alapú oktatáshoz ami nem mindig előnyös és nem annyira interaktív vagy szórakoztató. Illetve a mai fiatalok ,felnőttek nem nagyon szeretnek könyvet venni a kezükbe, hogy tanuljanak. Viszont néhány oktatási intézmény szeretne ezen változtatni vagyis alternatív tanulási módszereket keresnek. Ennek a tanulásnak a formája elég költséges hiszen a könyv oldalakat ki kell nyomtatni ami kiadás és bizony egy idő után el is dobják ha úgy érzik nem kell.
 ---
 ## 7. Igényelt üzleti folyamatok modellje
-* A feladatokat a tanár állíthatja
-össze, ezért ezeket részekre kell szedni. Ez egy angol magyar szójáték, ahol az angol és a magyar szavakat össze kell pároztatni, és pároztatás után a felhasználónak jelezni fogja a program, hogy helyes-e a szópár.
+* Online elérhető, ingyenes rendszer létrehozása
+-- Webes megjelenés mind mobilról (hordozhatóság), mind pedig számítógépről
+Átlátható design kialakítása a weboldalon
+-- Dobozok alkalmazása
+Elegáns design kialakítása
+-- Letisztult , sima, de elegáns színű háttér
+-- Egyszerű betűtípus és betűszín alkalmazása
+A weboldalon lévő adatok szerkeszthetővé tétele/Könnyű szerkeszthetőség
+-- A már felvett feladatok nevének szerkeszthetősége
+-- A már nem kívánatos feladatok törölhetősége
 ---
 ## 8. Követelménylista
  |    Modul    |      ID     |           Név          |   V.   |                                                 Kifejtés                                                      |
