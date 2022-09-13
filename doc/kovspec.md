@@ -30,6 +30,7 @@
     * Felhasználók adatait ne tárolhassák el, illetve felhasználó ne tárolhasson adatokat.
     * Felhasználót ne lehessen azonosítani
     * Rendszer/alkalmazás legtöbb böngészőt támogassa
+    * A weboldalt lehessen telefonon is használni, illetve különböző képernyőkhöz tudjon igazodni
 ---
 ## 6. Jelenlegi üzleti folyamatok modellje
 * A mai oktatási rendszer nem használja ki a 21. század technológia előnyeit és ezzel szemben erősen ragaszkodnak a könyv alapú oktatáshoz ami nem mindig előnyös és nem annyira interaktív vagy szórakoztató. Illetve a mai fiatalok ,felnőttek nem nagyon szeretnek könyvet venni a kezükbe, hogy tanuljanak. Viszont néhány oktatási intézmény szeretne ezen változtatni vagyis alternatív tanulási módszereket keresnek. Ennek a tanulásnak a formája elég költséges hiszen a könyv oldalakat ki kell nyomtatni ami kiadás és bizony egy idő után el is dobják ha úgy érzik nem kell.
