@@ -50,7 +50,9 @@ Admin:Az admin ugyan úgy kitöltheti a tesztet vagy előröl kezdheti. Illetve 
  avagy pont az ellentétét vagyis hogy rossz volt a szavak párosítása.  
 ---
 ## 11. Forgatókönyvek
-* Futási időben egy szereplő figyelhető meg. Az alkalmazást elindítva megjelenik bal és jobb oldalon három-három
+* Futási időben egy szereplő figyelhető meg. Az alkalmazást elindítva megjelenik egy üres kezelőfelület, ezután
+A felhasználó a kezdés gombra kattintva kezdhet új játékot.
+Az alkalmazást elindítva megjelenik bal és jobb oldalon három-három
  doboz, és össze kell az angol és magyar szavakat pároztatnia.
 ---
 ## 12. Funkció – követelmény megfeleltetés
