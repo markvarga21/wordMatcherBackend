@@ -18,9 +18,10 @@
 * Végül pedig, a felhasználónak lehetősége van a válaszainak, párosításainak az ellenőrzésére is, illetve az esetleges újrakezdésre is.
 ---
 ## 4. Funkcionális követelmények
-* Felhasználó tudja a szavakat úgy mozgatni, hogy az angol szót a magyar megfelelőjével tudja párosítani
+* Felhasználó tudja a szavakat mozgatni, hogy az angol szót a magyar megfelelőjével tudja párosítani
 * Felhasználó csak a kijelölt helyre tudja mozgatni a szavakat
 * Egy gomb segítségével tudja ellenőrizni a felhasználó a megoldásait
+* Ellenőrző gomb lenyomásával pedig az oldal mondja meg, hogy a megoldás hibátlan vagy hibás
 * Egy másik gombbal pedig előröl tudja kezdeni a szavak húzgálását
 * Legyen egy külön felület ahol angol-magyar szavakat lehet a rendszerbe bevinni még
 ---
