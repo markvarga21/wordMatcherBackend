@@ -1,6 +1,9 @@
 # **Követelméy specifikáció**
 ## 1. Áttekintés
-* Az alkalmazás célja a játékos és grafikus módon való nyelvtanulás, azon belül is a szavak elsajátítása angol illetve magyar nyelven. A felhasználó/diák tud majd úgy nevezetet kártyákat húzogatni ide-oda. A bal oldalon lennének a magyar szavas kártyák, stilizált formában, a jobb oldalon pedig az esetünkben angol szavak.
+* A nyelvtanulás rendkívül frusztráló lehet a sok szótárral - akár papíros szótár, akár egy online szolgáltatás által biztosított szótár - illetve ha nem állnak rendelkezésünkre az előbbi eszközök. Itt jön képbe az alkalmazásunk.
+* Az alkalmazás célja a játékos és grafikus módon való nyelvtanulás, azon belül is a szavak elsajátítása angol illetve magyar nyelven. A felhasználó/diák tud majd úgy nevezetet kártyákat húzogatni ide-oda. 
+* A bal oldalon lennének a magyar szavas kártyák, stilizált formában, a jobb oldalon pedig esetünkben angol szavak. 
+* Középen pedig ott lennének a fentebb említett szavaknak a placeholderei<sup>1</sup>, ahova lehet majd húzni a szavakat. 
 ---
 ## 2. Jelenlegi helyzet leírása
 * Az oktatási rendszerekben, sajnos egyre kevesebb hangsúly kapnak a nyelvtanulási lehetőségek, és ha kapnak is, az a gyerekeknek - legyenek középiskolásak, avagy már fiatal felnőttek - nem imponálnak. Itt jönne képbe az alkalmazásunk, ahol szintúgy megtalálja a helyét egy fiatal, de egy idősebb ember/gyerek is. Egy piaci rés betöltésére ad lehetőséget az alkalmazás, hiszen ez nem egy úgymond ,,szürke,, , nem érdekes tanítási módot használ az oktatásra, hanem egy sokkal kifinomultabbat.
@@ -24,3 +27,4 @@
 
 ---
 ## 9. Fogalomtár
+1. Placeholder: egy olyan terület a képernyőn, ami kicsit másabb színű, és oda kell húzni a kártyákat.
