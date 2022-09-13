@@ -18,9 +18,10 @@
 * Végül pedig, a felhasználónak lehetősége van a válaszainak, párosításainak az ellenőrzésére is, illetve az esetleges újrakezdésre is.
 ---
 ## 4. Funkcionális követelmények
-* Felhasználó tudja a szavakat úgy mozgatni, hogy az angol szót a magyar megfelelőjével tudja párosítani
+* Felhasználó tudja a szavakat mozgatni, hogy az angol szót a magyar megfelelőjével tudja párosítani
 * Felhasználó csak a kijelölt helyre tudja mozgatni a szavakat
 * Egy gomb segítségével tudja ellenőrizni a felhasználó a megoldásait
+* Ellenőrző gomb lenyomásával pedig az oldal mondja meg, hogy a megoldás hibátlan vagy hibás
 * Egy másik gombbal pedig előröl tudja kezdeni a szavak húzgálását
 * Legyen egy külön felület ahol angol-magyar szavakat lehet a rendszerbe bevinni még
 ---
@@ -29,9 +30,13 @@
     * Felhasználók adatait ne tárolhassák el, illetve felhasználó ne tárolhasson adatokat.
     * Felhasználót ne lehessen azonosítani
     * Rendszer/alkalmazás legtöbb böngészőt támogassa
+    * A weboldalt lehessen telefonon is használni, illetve különböző képernyőkhöz tudjon igazodni
 ---
 ## 6. Jelenlegi üzleti folyamatok modellje
-* A mai oktatási rendszer nem használja ki a 21. század technológia előnyeit és ezzel szemben erősen ragaszkodnak a könyv alapú oktatáshoz ami nem mindig előnyös és nem annyira interaktív vagy szórakoztató. Illetve a mai fiatalok ,felnőttek nem nagyon szeretnek könyvet venni a kezükbe, hogy tanuljanak. Viszont néhány oktatási intézmény szeretne ezen változtatni vagyis alternatív tanulási módszereket keresnek. Ennek a tanulásnak a formája elég költséges hiszen a könyv oldalakat ki kell nyomtatni ami kiadás és bizony egy idő után el is dobják ha úgy érzik nem kell.
+* Könyvből való szó tanulás:
+    * Mai diákok nem preferálják a könyvből való tanulást
+    * Könyvet magukkal kell hordaniuk a tanulóknak sőt ha többet akarnak tanulni akkor szótárat kell venniük
+    * Könyvet eldobják ha már nem kell így hulladék keletkezik
 ---
 ## 7. Igényelt üzleti folyamatok modellje
 * Online elérhető, ingyenes rendszer létrehozása
