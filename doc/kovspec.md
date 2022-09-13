@@ -35,15 +35,15 @@
 ---
 ## 7. Igényelt üzleti folyamatok modellje
 * Online elérhető, ingyenes rendszer létrehozása
--- Webes megjelenés mind mobilról (hordozhatóság), mind pedig számítógépről
-Átlátható design kialakítása a weboldalon
--- Dobozok alkalmazása
-Elegáns design kialakítása
--- Letisztult , sima, de elegáns színű háttér
--- Egyszerű betűtípus és betűszín alkalmazása
-A weboldalon lévő adatok szerkeszthetővé tétele/Könnyű szerkeszthetőség
--- A már felvett feladatok nevének szerkeszthetősége
--- A már nem kívánatos feladatok törölhetősége
+    * Webes megjelenés mind mobilról (hordozhatóság), mind pedig számítógépről
+* Átlátható design kialakítása a weboldalon
+    * Dobozok alkalmazása
+    * Elegáns design kialakítása
+    * Letisztult , sima, de elegáns színű háttér
+* Egyszerű betűtípus és betűszín alkalmazása
+    * A weboldalon lévő adatok szerkeszthetővé tétele/Könnyű szerkeszthetőség
+    * A már felvett feladatok nevének szerkeszthetősége
+    * A már nem kívánatos feladatok törölhetősége
 ---
 ## 8. Követelménylista
 |    Modul    |      ID     |           Név          |   V.   |                                                 Kifejtés                                                      |
