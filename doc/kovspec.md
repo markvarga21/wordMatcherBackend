@@ -6,7 +6,9 @@
 * Középen pedig ott lennének a fentebb említett szavaknak a placeholderei<sup>1</sup>, ahova lehet majd húzni a szavakat. 
 ---
 ## 2. Jelenlegi helyzet leírása
-* Az oktatási rendszerekben, sajnos egyre kevesebb hangsúly kapnak a nyelvtanulási lehetőségek, és ha kapnak is, az a gyerekeknek - legyenek középiskolásak, avagy már fiatal felnőttek - nem imponálnak. Itt jönne képbe az alkalmazásunk, ahol szintúgy megtalálja a helyét egy fiatal, de egy idősebb ember/gyerek is. Egy piaci rés betöltésére ad lehetőséget az alkalmazás, hiszen ez nem egy úgymond ,,szürke,, , nem érdekes tanítási módot használ az oktatásra, hanem egy sokkal kifinomultabbat.
+* Az oktatási rendszerekben, sajnos egyre kisebb hangsúly kapnak a nyelvtanulási lehetőségek, és ha kapnak is, az a gyerekeknek - legyenek középiskolások, vagy már fiatal felnőttek - nem imponálnak. 
+* Itt jönne képbe az alkalmazásunk, ahol szintúgy megtalálja a helyét egy fiatal, de egy idősebb ember/gyerek is. 
+* Egy piaci rés betöltésére ad lehetőséget az alkalmazás, hiszen ez nem egy úgymond ,,szürke,, , nem érdekes tanítási módot használ az oktatásra, hanem egy sokkal kifinomultabbat, imponálóbbat.
 ---
 ## 3. Vágyálom rendszer leírása
 * Az alkalmazásnak tudni kell futnia a weben, amit bárhonnan el tudnak érni probélma nélkül. Továbbá mindíg és minden pillanatban elérhető kell hogy legyen, sebességben és reszponzivitásban változatlan, illetve hibamentességét mg kell hogy őrizze. A rendszer lehetőséget nyújt a felhasználónak a kártyák ide-oda húzogatására, viszont csakis a megfelelő helyre, amit majd később részletezve is lesz. Végül pedig, a felhasználónak lehetősége van a válaszainak, párosításainak az ellenőrzésére is, illetve az esetleges újrakezdésre is.
