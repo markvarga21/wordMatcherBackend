@@ -57,10 +57,15 @@
     * A már nem kívánatos feladatok törölhetősége
 ---
 ## 7. Követelménylista
-|    Modul    |      ID     |           Név          |   V.   |                                                 Kifejtés                                                      |
-| :---        |    :----:   |          :---:         | :---:  |                                                  :---:                                                        |
-| Jogosultság |      K1     | Jogosultsági szintek   |  1.0   |                     Felhasználó/vendég: feladat teljesítése, új szavak bevitele ; Admin: Új szavak bevitele                       |
-| Feladattípus|      K2     |          Teszt         |  1.0   |                         Teszthez hasonló feladat. Hibás, hibátlan a teszt kitöltés                            |
+|Követelmény azonosító|      		      Leírás                      |
+|        :----:       |			      :----:		          |
+|         K01 	      |  Felhasználó/vendég tudja teljesíteni a feladatot |
+|	  K02 	      |  Admin tudjon új szavakat bevinni		  |
+|	  K03 	      |  Minden internetes keresőn elérhető legyen	  |
+|	  K04 	      |  Reszponzív dizájn 				  |
+|  	  K05 	      |  Egyszerű legyen az oldal kezelhetősége		  |
+|	  K06 	      |  Telefonon is elérhető legyen az oldal		  |
+|	  K07 	      |  Az oldal alkalmazkodjon a kijelző méretéhez      |
 
 ---
 ## 8. Használati esetek
