@@ -33,7 +33,10 @@
     * A weboldalt lehessen telefonon is használni, illetve különböző képernyőkhöz tudjon igazodni
 ---
 ## 6. Jelenlegi üzleti folyamatok modellje
-* A mai oktatási rendszer nem használja ki a 21. század technológia előnyeit és ezzel szemben erősen ragaszkodnak a könyv alapú oktatáshoz ami nem mindig előnyös és nem annyira interaktív vagy szórakoztató. Illetve a mai fiatalok ,felnőttek nem nagyon szeretnek könyvet venni a kezükbe, hogy tanuljanak. Viszont néhány oktatási intézmény szeretne ezen változtatni vagyis alternatív tanulási módszereket keresnek. Ennek a tanulásnak a formája elég költséges hiszen a könyv oldalakat ki kell nyomtatni ami kiadás és bizony egy idő után el is dobják ha úgy érzik nem kell.
+* Könyvből való szó tanulás:
+    * Mai diákok nem preferálják a könyvből való tanulást
+    * Könyvet magukkal kell hordaniuk a tanulóknak sőt ha többet akarnak tanulni akkor szótárat kell venniük
+    * Könyvet eldobják ha már nem kell így hulladék keletkezik
 ---
 ## 7. Igényelt üzleti folyamatok modellje
 * Online elérhető, ingyenes rendszer létrehozása
