@@ -42,7 +42,7 @@
 * Tanuló önellenőrzése külön papíron:
     * Ez a módszer papír és toll igényes
     * Önellenőrzés után hulladék keletkezik
-    * Sok időt elvesz az, hogy a tanuló felírj a szavakat
+    * Sok időt elvesz az, hogy a tanuló felírja a szavakat
 ---
 ## 6. Igényelt üzleti folyamatok modellje
 * Online elérhető, ingyenes rendszer létrehozása
@@ -53,27 +53,23 @@
     * Letisztult , sima, de elegáns színű háttér
 * Egyszerű betűtípus és betűszín alkalmazása
     * A weboldalon lévő adatok szerkeszthetővé tétele/Könnyű szerkeszthetőség
-    * A már felvett feladatok nevének szerkeszthetősége
-    * A már nem kívánatos feladatok törölhetősége
+    * A már nem kívánatos szavak törölhetősége
 ---
 ## 7. Követelménylista
 |Követelmény azonosító|      		      Leírás                      |
 |        :----:       |			      :----:		          |
-|         K01 	      |  Felhasználó/vendég tudja teljesíteni a feladatot |
-|	  K02 	      |  Admin tudjon új szavakat bevinni		  |
-|	  K03 	      |  Minden internetes keresőn elérhető legyen	  |
-|	  K04 	      |  Reszponzív dizájn 				  |
-|  	  K05 	      |  Egyszerű legyen az oldal kezelhetősége		  |
-|	  K06 	      |  Telefonon is elérhető legyen az oldal		  |
-|	  K07 	      |  Az oldal alkalmazkodjon a kijelző méretéhez      |
-
+|         K01 	      |  Felhasználó/vendég tudja teljesíteni a feladatot illetve új magyar-angol szópárt tudjon bevinni |
+|	  K02 	      |  Minden internetes keresőn elérhető legyen	  |
+|	  K03 	      |  Reszponzív dizájn 				  |
+|  	  K04 	      |  Egyszerűen legyen kezelhető az oldal		  |
+|	  K05 	      |  Telefonon is elérhető legyen az oldal		  |
+|	  K06 	      |  Az oldal alkalmazkodjon a kijelző méretéhez      |
 ---
 ## 8. Használati esetek
 * Felhasználó:
     * A felhasználó vagy a vendég kitöltheti a tesztet vagy azt akár újra is kezdheti.
     * Illetve az ellenőrzéssel megtudhatják hogy jól vagy rosszul töltötték ki a tesztet.
     * Illetve ha a felhasználó szeretne új szavakat tanulni akkor ő is feltölthet a rendszerbe új magyar-angol szó párost.
-
 * Admin:
     * Az admin ugyan úgy kitöltheti a tesztet vagy előröl kezdheti. Illetve ha kitölti a tesztet akkor megkaphatja ő is a választ, hogy jól vagy rosszul van kitöltve.
     * Ez által az admin le tudja tesztelni a programot, hogy az megfelelően működik e. 
