@@ -34,7 +34,15 @@
     * Tilos engednie trágár, explicit szavak hozzáadását és használatát
 ---
 ## 5. Jelenlegi üzleti folyamatok modellje
-* A jelenlegi oktatási rendszer nem használja ki a 21. századi technológiákat az oktatásban azért, hogy a tanulók számára az oktatás és a tanulás interaktívabb és reszponzívabb legyen. A diákok nagy része nem hajlandó a régi módszerek szerint tanulni ezért néhány oktatási intézmény alternatív megoldás után keres. A diákok könyvekből tanulnak és ha ellenőrizni szeretnék, hogy mennyi szó maradt meg akkor ezt otthon szokták megtenni egy külön papíron vagy nem is szokták magukat ellenőrizni. Ez rengeteg nyomtatási kiadást jelent illetve sok elhasznált lapot.
+* Könyvből való szó tanulás:
+    * Mai diákok nem preferálják a könyvből való tanulást
+    * Könyvet magukkal kell hordaniuk a tanulóknak sőt ha többet akarnak tanulni akkor szótárt kell venniük
+    * Könyvet eldobják ha már nem kell így hulladék keletkezik
+    * Nem elég reszponzív és interaktív
+* Tanuló önellenőrzése külön papíron:
+    * Ez a módszer papír és toll igényes
+    * Önellenőrzés után hulladék keletkezik
+    * Sok időt elvesz az, hogy a tanuló felírj a szavakat
 ---
 ## 6. Igényelt üzleti folyamatok modellje
 * Azért hogy egyszerűbbé tegyük a diákok angol tanulását, létrehozunk egy programot ami a mai kornak megfelelő és a legtöbb böngészőn megfelelően tud megjelenni illetve futni. A diákoknak sokkal egyszerűbb lesz a tanulás hiszen a program segítségével egyszerre tanulhatnak illetve ellenőrizhetik a tudásukat addig amíg nem érzik úgy, hogy a megtanult szavak jól mennek és a tudásuk biztos. Illetve a diákoknak nem kell a könyvet elővenniük és azt átlapozva előkeresniük az adott szavakat és így ha esetleg iskolában hagyják a könyveiket akkor is tudnak tanulni. Illetve ha esetleg új szavakat szeretne megtanulni azt fel tudja vinni a rendszerbe, és ez által a diákok új szavakat is fognak tudni majd tanulni.
