@@ -46,9 +46,10 @@ A weboldalon lévő adatok szerkeszthetővé tétele/Könnyű szerkeszthetőség
 -- A már nem kívánatos feladatok törölhetősége
 ---
 ## 8. Követelménylista
- |    Modul    |      ID     |           Név          |   V.   |                                                 Kifejtés                                                      |
+|    Modul    |      ID     |           Név          |   V.   |                                                 Kifejtés                                                      |
 | :---        |    :----:   |          :---:         | :---:  |                                                  :---:                                                        |
-| Jogosultság |      K1     | Jogosultsági szintek   |  1.0   |                     Felhasználó/vendég: feladat teljesítése   |
+| Jogosultság |      K1     | Jogosultsági szintek   |  1.0   |                     Felhasználó/vendég: feladat teljesítése, új szavak bevitele ; Admin: Új szavak bevitele                       |
+| Feladattípus|      K2     |          Teszt         |  1.0   |                         Teszthez hasonló feladat. Hibás, hibátlan a teszt kitöltés 
 
 ---
 ## 9. Fogalomtár
