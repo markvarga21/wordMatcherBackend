@@ -14,12 +14,16 @@
 ---
 ## 2. Jelenlegi helyzet leírása
 * A megrendelő szeretné ha a nyelvtanulás minél hatékonyabb, modernebb és innovatívabb lenne. 
-* Azt szorgalmazza, hogy legyenek ilyen csempeszerű<sup>1</sup> elemek, amiket lehessen ide-oda húzogatni, s azokat a legvégén ellenőrizni lehessen például egy gomb segítségével. 
+* A megrendelő szeretné, ha mindez egy mindenki számára elérhető, egyszerű elnevezéssel rendelkező weboldal formájában lenne megvalósítva.
+* Azt szorgalmazza, hogy legyenek ilyen csempeszerű<sup>1</sup> elemek, amiket lehessen ide-oda húzogatni<sup>2</sup>, s azokat a legvégén ellenőrizni lehessen például egy gomb segítségével. 
 * Ha jó a megoldás, akkor ezt jelzi a felhasználónak (legyen gyerek vagy felnőtt) egy adott módon, s ha nem helyes szintúgy jelzi. 
+* Továbbá, az alkalmazás egy piaci rés betöltésére lenne alkalmas
 ---
 ## 3. Vágyálom rendszer leírása
 * A rendszerünk, mint azt fentebb is említettem, csempéknek<sup>1</sup> (angolul *tiles*) nevezett elemeket fog használni a szavak párosításához, amiket be tud húzni előre meghatározott helyekre. 
-* A felhasználó továbbá ellenőrizni is tudja a válaszainak a helyességét egy gombra kattintva az oldal alján, ami különböző algoritmusokkal ellenőrzi a válasz/párosítás helyességét. A felhasználói felület egy alert-et használva fog megbizonyosodni válasza helyességéről, avagy annak helytelenségéről. A kimenet függvényében lehetősége lesz újrarendezni a kártyákat és azt újból ellenőriztetni a rendszerrel a gomb újboli lenyomásával.
+* A felhasználó továbbá ellenőrizni is tudja a válaszainak a helyességét egy gombra kattintva az oldal alján, ami különböző algoritmusokkal ellenőrzi a válasz/párosítás helyességét. 
+* A felhasználói felület egy alert-et használva fog megbizonyosodni válasza helyességéről, avagy annak helytelenségéről. A kimenet függvényében lehetősége lesz újrarendezni a kártyákat és azt újból ellenőriztetni a rendszerrel a gomb újboli lenyomásával.
+* Ezen kívül pedig, a felhasználónak lehetősége van új szavak hozzáadására
 ---
 ## 4. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 * A rendszernek/alkalmazásnak a következő megszorításokat kell tartalmaznia:
@@ -58,3 +62,4 @@ Admin:Az admin ugyan úgy kitöltheti a tesztet vagy előröl kezdheti. Illetve 
 ---
 ## 13. Fogalomszótár
 1. Csempe: egy szürke terület a képernyőn, ami mutatja, hogy hova kell behúzni az idegen szavas kártyákat.
+2. Ide-oda húzogatós megoldás: ez egy olyan módszer, angol kifejezéssel élve *drag and drop*, hogy valamire rákattintunk, azt nyomva tartjuk, és ezáltal át tudjuk húzni egy másik pontba, esetünkben a szó lefordított párja mellé, középre.
