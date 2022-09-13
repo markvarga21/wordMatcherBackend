@@ -45,7 +45,16 @@
     * Sok időt elvesz az, hogy a tanuló felírj a szavakat
 ---
 ## 6. Igényelt üzleti folyamatok modellje
-* Azért hogy egyszerűbbé tegyük a diákok angol tanulását, létrehozunk egy programot ami a mai kornak megfelelő és a legtöbb böngészőn megfelelően tud megjelenni illetve futni. A diákoknak sokkal egyszerűbb lesz a tanulás hiszen a program segítségével egyszerre tanulhatnak illetve ellenőrizhetik a tudásukat addig amíg nem érzik úgy, hogy a megtanult szavak jól mennek és a tudásuk biztos. Illetve a diákoknak nem kell a könyvet elővenniük és azt átlapozva előkeresniük az adott szavakat és így ha esetleg iskolában hagyják a könyveiket akkor is tudnak tanulni. Illetve ha esetleg új szavakat szeretne megtanulni azt fel tudja vinni a rendszerbe, és ez által a diákok új szavakat is fognak tudni majd tanulni.
+* Online elérhető, ingyenes rendszer létrehozása
+    * Webes megjelenés mind mobilról (hordozhatóság), mind pedig számítógépről
+* Átlátható design kialakítása a weboldalon
+    * Dobozok alkalmazása
+    * Elegáns design kialakítása
+    * Letisztult , sima, de elegáns színű háttér
+* Egyszerű betűtípus és betűszín alkalmazása
+    * A weboldalon lévő adatok szerkeszthetővé tétele/Könnyű szerkeszthetőség
+    * A már felvett feladatok nevének szerkeszthetősége
+    * A már nem kívánatos feladatok törölhetősége
 ---
 ## 7. Követelménylista
 |    Modul    |      ID     |           Név          |   V.   |                                                 Kifejtés                                                      |
