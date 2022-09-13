@@ -69,8 +69,15 @@
 
 ---
 ## 8. Használati esetek
-* Felhasználó: A felhasználó vagy a vendég kitöltheti a tesztet vagy azt akár újra is kezdheti. Illetve az ellenőrzéssel megtudhatják hogy jól vagy rosszul töltötték ki a tesztet. Illetve ha a felhasználó szeretne új szavakat tanulni akkor ő is feltölthet a rendszerbe új magyar-angol szó párost. 
-Admin:Az admin ugyan úgy kitöltheti a tesztet vagy előröl kezdheti. Illetve ha kitölti a tesztet akkor megkaphatja ő is a választ, hogy jól vagy rosszul van kitöltve. Ez által az admin le tudja tesztelni a programot, hogy az megfelelően működik e. Vagyis az admin a felhasználó szerepkörével rendelkezik. Illetve ha nem elég a szavak száma akkor feltud vinni pár új magyar-angol szót a rendszerbe vagyis tudja bővíteni a szótárat egy külön kis panel segítségével ahova beírhatja a magyar szót és annak az angol megfelelőjét és egy gomb segítségével fel töltheti a szótárba.
+* Felhasználó:
+    * A felhasználó vagy a vendég kitöltheti a tesztet vagy azt akár újra is kezdheti.
+    * Illetve az ellenőrzéssel megtudhatják hogy jól vagy rosszul töltötték ki a tesztet.
+    * Illetve ha a felhasználó szeretne új szavakat tanulni akkor ő is feltölthet a rendszerbe új magyar-angol szó párost.
+
+* Admin:
+    * Az admin ugyan úgy kitöltheti a tesztet vagy előröl kezdheti. Illetve ha kitölti a tesztet akkor megkaphatja ő is a választ, hogy jól vagy rosszul van kitöltve.
+    * Ez által az admin le tudja tesztelni a programot, hogy az megfelelően működik e. 
+    * Illetve ha nem elég a szavak száma akkor feltud vinni pár új magyar-angol szót a rendszerbe vagyis tudja bővíteni a szótárat egy külön kis panel segítségével ahova beírhatja a magyar szót és annak az angol megfelelőjét és egy gomb segítségével fel töltheti a szótárba.
 ---
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 * A program mindig jelzi egy adott esetnél, azaz szópárosításnál, hogy valóban angol-magyar szavak vannak-e összehúzva.
