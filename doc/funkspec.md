@@ -23,13 +23,15 @@
 * A rendszerünk, mint azt fentebb is említettem, csempéknek<sup>1</sup> (angolul *tiles*) nevezett elemeket fog használni a szavak párosításához, amiket be tud húzni előre meghatározott helyekre. 
 * A felhasználó továbbá ellenőrizni is tudja a válaszainak a helyességét egy gombra kattintva az oldal alján, ami különböző algoritmusokkal ellenőrzi a válasz/párosítás helyességét. 
 * A felhasználói felület egy alert-et használva fog megbizonyosodni válasza helyességéről, avagy annak helytelenségéről. A kimenet függvényében lehetősége lesz újrarendezni a kártyákat és azt újból ellenőriztetni a rendszerrel a gomb újboli lenyomásával.
-* Ezen kívül pedig, a felhasználónak lehetősége van új szavak hozzáadására
+* Ezen kívül pedig, a felhasználónak lehetősége van új szavak hozzáadására, amire egy felugró alert<sup>3</sup> ablakon, avagy egy másik felületen lesz lehetősége.
 ---
 ## 4. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 * A rendszernek/alkalmazásnak a következő megszorításokat kell tartalmaznia:
     * Nem szabad hogy felhasználó adatokat tároljon.
     * Tiltott a felhasználó azonosítására alkalmas sütik használata.
     * Innovatív technológiákat kell használnia, ami lehetőleg minden modern böngészőben működik
+    * Nem szabad, hogy lefagyjon az alkalmazás
+    * Tilos engednie trágár, explicit szavak hozzáadását és használatát
 ---
 ## 5. Jelenlegi üzleti folyamatok modellje
 * A jelenlegi oktatási rendszer nem használja ki a 21. századi technológiákat az oktatásban azért, hogy a tanulók számára az oktatás és a tanulás interaktívabb és reszponzívabb legyen. A diákok nagy része nem hajlandó a régi módszerek szerint tanulni ezért néhány oktatási intézmény alternatív megoldás után keres. A diákok könyvekből tanulnak és ha ellenőrizni szeretnék, hogy mennyi szó maradt meg akkor ezt otthon szokták megtenni egy külön papíron vagy nem is szokták magukat ellenőrizni. Ez rengeteg nyomtatási kiadást jelent illetve sok elhasznált lapot.
@@ -63,3 +65,4 @@ Admin:Az admin ugyan úgy kitöltheti a tesztet vagy előröl kezdheti. Illetve 
 ## 13. Fogalomszótár
 1. Csempe: egy szürke terület a képernyőn, ami mutatja, hogy hova kell behúzni az idegen szavas kártyákat.
 2. Ide-oda húzogatós megoldás: ez egy olyan módszer, angol kifejezéssel élve *drag and drop*, hogy valamire rákattintunk, azt nyomva tartjuk, és ezáltal át tudjuk húzni egy másik pontba, esetünkben a szó lefordított párja mellé, középre.
+3. Alert ablak: a modern böngészők által közseretetten használt megoldás, arra hogy jelezzenek valami apróságot a felhasználónak. Ez általában egy kis ablakocska szokott lenni, ami a böngésző oldal tetejének a közepéből szokott lenyílni ugymond.
