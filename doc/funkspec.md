@@ -34,21 +34,46 @@
     * Tilos engednie trágár, explicit szavak hozzáadását és használatát
 ---
 ## 5. Jelenlegi üzleti folyamatok modellje
-* A jelenlegi oktatási rendszer nem használja ki a 21. századi technológiákat az oktatásban azért, hogy a tanulók számára az oktatás és a tanulás interaktívabb és reszponzívabb legyen. A diákok nagy része nem hajlandó a régi módszerek szerint tanulni ezért néhány oktatási intézmény alternatív megoldás után keres. A diákok könyvekből tanulnak és ha ellenőrizni szeretnék, hogy mennyi szó maradt meg akkor ezt otthon szokták megtenni egy külön papíron vagy nem is szokták magukat ellenőrizni. Ez rengeteg nyomtatási kiadást jelent illetve sok elhasznált lapot.
+* Könyvből való szó tanulás:
+    * Mai diákok nem preferálják a könyvből való tanulást
+    * Könyvet magukkal kell hordaniuk a tanulóknak sőt ha többet akarnak tanulni akkor szótárt kell venniük
+    * Könyvet eldobják ha már nem kell így hulladék keletkezik
+    * Nem elég reszponzív és interaktív
+* Tanuló önellenőrzése külön papíron:
+    * Ez a módszer papír és toll igényes
+    * Önellenőrzés után hulladék keletkezik
+    * Sok időt elvesz az, hogy a tanuló felírja a szavakat
 ---
 ## 6. Igényelt üzleti folyamatok modellje
-* Azért hogy egyszerűbbé tegyük a diákok angol tanulását, létrehozunk egy programot ami a mai kornak megfelelő és a legtöbb böngészőn megfelelően tud megjelenni illetve futni. A diákoknak sokkal egyszerűbb lesz a tanulás hiszen a program segítségével egyszerre tanulhatnak illetve ellenőrizhetik a tudásukat addig amíg nem érzik úgy, hogy a megtanult szavak jól mennek és a tudásuk biztos. Illetve a diákoknak nem kell a könyvet elővenniük és azt átlapozva előkeresniük az adott szavakat és így ha esetleg iskolában hagyják a könyveiket akkor is tudnak tanulni. Illetve ha esetleg új szavakat szeretne megtanulni azt fel tudja vinni a rendszerbe, és ez által a diákok új szavakat is fognak tudni majd tanulni.
+* Online elérhető, ingyenes rendszer létrehozása
+    * Webes megjelenés mind mobilról (hordozhatóság), mind pedig számítógépről
+* Átlátható design kialakítása a weboldalon
+    * Dobozok alkalmazása
+    * Elegáns design kialakítása
+    * Letisztult , sima, de elegáns színű háttér
+* Egyszerű betűtípus és betűszín alkalmazása
+    * A weboldalon lévő adatok szerkeszthetővé tétele/Könnyű szerkeszthetőség
+    * A már nem kívánatos szavak törölhetősége
 ---
 ## 7. Követelménylista
-|    Modul    |      ID     |           Név          |   V.   |                                                 Kifejtés                                                      |
-| :---        |    :----:   |          :---:         | :---:  |                                                  :---:                                                        |
-| Jogosultság |      K1     | Jogosultsági szintek   |  1.0   |                     Felhasználó/vendég: feladat teljesítése, új szavak bevitele ; Admin: Új szavak bevitele                       |
-| Feladattípus|      K2     |          Teszt         |  1.0   |                         Teszthez hasonló feladat. Hibás, hibátlan a teszt kitöltés                            |
-
+|Követelmény azonosító|      		      Leírás                      |
+|        :----:       |			      :----:		          |
+|         K01 	      |  Felhasználó/vendég tudja teljesíteni a feladatot illetve új magyar-angol szópárt tudjon bevinni |
+|	  K02 	      |  Minden internetes keresőn elérhető legyen	  |
+|	  K03 	      |  Reszponzív dizájn 				  |
+|  	  K04 	      |  Egyszerűen legyen kezelhető az oldal		  |
+|	  K05 	      |  Telefonon is elérhető legyen az oldal		  |
+|	  K06 	      |  Az oldal alkalmazkodjon a kijelző méretéhez      |
 ---
 ## 8. Használati esetek
-* Felhasználó: A felhasználó vagy a vendég kitöltheti a tesztet vagy azt akár újra is kezdheti. Illetve az ellenőrzéssel megtudhatják hogy jól vagy rosszul töltötték ki a tesztet. Illetve ha a felhasználó szeretne új szavakat tanulni akkor ő is feltölthet a rendszerbe új magyar-angol szó párost. 
-Admin:Az admin ugyan úgy kitöltheti a tesztet vagy előröl kezdheti. Illetve ha kitölti a tesztet akkor megkaphatja ő is a választ, hogy jól vagy rosszul van kitöltve. Ez által az admin le tudja tesztelni a programot, hogy az megfelelően működik e. Vagyis az admin a felhasználó szerepkörével rendelkezik. Illetve ha nem elég a szavak száma akkor feltud vinni pár új magyar-angol szót a rendszerbe vagyis tudja bővíteni a szótárat egy külön kis panel segítségével ahova beírhatja a magyar szót és annak az angol megfelelőjét és egy gomb segítségével fel töltheti a szótárba.
+* Felhasználó:
+    * A felhasználó vagy a vendég kitöltheti a tesztet vagy azt akár újra is kezdheti.
+    * Illetve az ellenőrzéssel megtudhatják hogy jól vagy rosszul töltötték ki a tesztet.
+    * Illetve ha a felhasználó szeretne új szavakat tanulni akkor ő is feltölthet a rendszerbe új magyar-angol szó párost.
+* Admin:
+    * Az admin ugyan úgy kitöltheti a tesztet vagy előröl kezdheti. Illetve ha kitölti a tesztet akkor megkaphatja ő is a választ, hogy jól vagy rosszul van kitöltve.
+    * Ez által az admin le tudja tesztelni a programot, hogy az megfelelően működik e. 
+    * Illetve ha nem elég a szavak száma akkor feltud vinni pár új magyar-angol szót a rendszerbe vagyis tudja bővíteni a szótárat egy külön kis panel segítségével ahova beírhatja a magyar szót és annak az angol megfelelőjét és egy gomb segítségével fel töltheti a szótárba.
 ---
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 * A program mindig jelzi egy adott esetnél, azaz szópárosításnál, hogy valóban angol-magyar szavak vannak-e összehúzva.
