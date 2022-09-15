@@ -1,11 +1,12 @@
 # **Funkcionális specifikáció**
 ## 1. A rendszer célja
 * A rendszer célja, hogy a felhasználó gyakorolhassa az angol nyelvet, hiszen ez a mai világban már nélkülözhetetlen <br>
-, mivel ez a legjobban beszélt nyelv, és a legtöbb cég, vállalat angol. Fontos, hogy a felhasználó<br>
+mivel ez a legjobban beszélt nyelv, és a legtöbb cég, vállalat angol. Fontos, hogy a felhasználó<br>
 könnyen el tudjon igazodni a felületeken ezért minimális felhasználói<br>
 felületet kap az alkalmazás. A tanár szerepkörrel rendelkező felhasználók<br>
 tölthetik fel az angol és magyar szópárokat a feladatba.  A rendszer csak webes felületen lesz elérhető. <br>
-Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön rendszert kell, hogy fejlesszünk. A megoldásra a felhasználó pontszámot kap.
+Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön rendszert kell, hogy fejlesszünk.<br>
+ A megoldásra a felhasználó pontszámot kap.
 ---
 ## 2. Projektterv
 
@@ -70,7 +71,8 @@ magában foglalja a programhibák kijavítását, a belső igények változása 
 módosításokat, valamint a környezeti feltételek változása miatt <br>
 megfogalmazott program-, és állomány módosítási igényeket is. <br>
 A szoftveren havonta szeretnénk karbantartásokat végezni, ezen felül bármilyen <br>
-felhasználói hibajelentés után azonnali helyreállítás jön. A szoftveren évente nagyobb frissítések, módosítások fordulhatnak elő. <br>
-Idő elteltével új kategóriákat kell hozzáadni az apphoz, hogy fent tartsuk az
+felhasználói hibajelentés után azonnali helyreállítás jön. A szoftveren évente nagyobb<br>
+ frissítések, módosítások fordulhatnak elő. <br>
+Idő elteltével új kategóriákat kell hozzáadni az apphoz, hogy fent tartsuk az <br>
 érdeklődési szintet.
 
