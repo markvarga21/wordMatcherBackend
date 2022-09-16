@@ -77,7 +77,14 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 ![Main page](/doc/resource/mainPage.png)
 ---
 ## 6. Fizikai környezet
+* Az alkalmazás web platforma készül így különféle eszközökön is lehet használni ha van rajtuk böngésző
+* Operációs rendszer független
+* Nincsenek megvásárolt komponenseink
+* Van tűzfal a hálózaton és minden portot is engedélyez
 
+* Fejlesztési környezet:
+    * Intellij Idea
+    * Git
 ---
 ## 7. Absztrakt domain modell
 * JSF-et fogunk használni, mert az egyszerűbb, mint  a HTML, CSS, Javasript.
