@@ -55,7 +55,26 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
     * GDPR-nek való megfelelés.
 ---
 ## 5. Funkcionális terv
+* A webalkalmazásunknak az a célja, hogy az embereket segítsük az angol szavak tanulásában. 
+* Rendszerszerepkörök:
+    * Felhasználó(user)
 
+* Rendszerhasználati esetek és lefutásaik:
+    * Felhasználó(user):
+        * Képes a szavakat ide-oda huzgálni
+        * Letudja ellenörizni a megoldásait
+        * Előröl tudja kezdeni a feladatot
+        * Tud magyar-angol szópárt kivenni
+        * Tud magyar-angol szópárt hozzáadni
+ 
+* 1 - A felhasználó párosítja a szavakat 
+* 2 - A done lenyomásával kap egy ablakot amiben szerepel az hogy a a feladat hibátlan vagy hibás
+![Paired page](/doc/resource/pairedPage.png)
+
+* Menü hierarchiák:
+    * Fő oldal:
+        * Feladat
+![Main page](/doc/resource/mainPage.png)
 ---
 ## 6. Fizikai környezet
 
