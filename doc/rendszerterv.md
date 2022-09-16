@@ -42,7 +42,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 
 ---
 ## 8. Architekturális terv
-
+* A webes alkalmazásunkban a backend illetve a frontend szerepét a JSF tölti be, ami alapvetően Java alapú, illetve *.xhtml* kiterjesztésű elemeket használ úgymond egyfajta frontendre (itt tudunk hivatkozni a Java osztályokban lévő adattagokra és metódusokra/osztályokra)
 ---
 ## 9. Adatbázis terv
 * A szavak tárolására MySQL adatbázis rendszert fog használni a rendszer
