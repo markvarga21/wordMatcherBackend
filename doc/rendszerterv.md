@@ -32,7 +32,9 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 
 ---
 ## 9. Adatbázis terv
-
+* A szavak tárolására MySQL adatbázis rendszert fog használni a rendszer
+* Tekintve, hogy az alkalmazás kis méretű, az adatbázis szerver lokálisan fog működni, a XAMPP eszközt használva.
+* Az alkalmazás kihelyezése után, nagy eséllyel egy nagyobb szolgáltatót fog használni az alkalmazás, az adatbázis szerver host-olására.
 ---
 ## 10. Implementációs terv
 
