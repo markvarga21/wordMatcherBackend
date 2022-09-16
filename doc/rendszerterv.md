@@ -35,7 +35,24 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 
 ---
 ## 4. Követelmények
+* Funkcionális követelmények:
+    * Felhasználó tudja a szavakat mozgatni, hogy az angol szót a magyar megfelelőjével tudja párosítani
+    * Felhasználó csak a kijelölt helyre tudja mozgatni a szavakat
+    * Egy gomb segítségével tudja ellenőrizni a felhasználó, a megoldásait
+    * Ellenőrző gomb lenyomásával pedig az oldal meg mondja, hogy a megoldás hibátlan vagy hibás
+    * Egy másik gombbal pedig előröl tudja kezdeni a szavak húzgálását
+    * Legyen egy külön felület ahol angol-magyar szavakat lehet a rendszerbe bevinni még
+    * Lehessen szavakat kivenni
+    * A weboldal a legtöbb böngészőt támogassa
+    * A weboldalt lehessen telefonon is használni, illetve különböző képernyőkhöz tudjon igazodni
+    * Egyszerűen legyen kezelhető az oldal	
 
+* Nem funkcionális követelmények:
+    * Felhasználók adatait ne tárolhassák el, illetve felhasználó ne tárolhasson adatokat
+    * Felhasználót ne lehessen azonosítani
+
+* Törvényi előírások, szabványok:
+    * GDPR-nek való megfelelés.
 ---
 ## 5. Funkcionális terv
 
