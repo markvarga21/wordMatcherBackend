@@ -9,7 +9,27 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
  A megoldásra a felhasználó pontszámot kap.
 ---
 ## 2. Projektterv
+### Projektszerepkörök, felelősségek:
+* Scrum master: Varga József-Márk, Bódi András, Cserés Gábor
+* Product owner: Varga József-Márk, Bódi András, Cserés Gábor
 
+### Projektmunkások és felelőségek:
+
+* Backend munkálatok:
+    * Varga József-Márk, Bódi András, Cserés Gábor
+         * Feladatuk a funkciók létrehozása illetve adatok tárolása
+* Frontend:
+    * Varga József-Márk, Bódi András, Cserés Gábor
+         * Feladatuk a weboldal megjelenítése
+### Ütemterv:
+
+|          Funkció        |Feladat|Prioritás|Becslés|Aktuális becslés|Eltelt idő|Hátralévő idő|
+|          :----:         |:----: |  :----: | :----:|     :----:     |  :----:  |    :----:   |
+|Követelmény specifikáció |       |0	    |7      |7               |7		|       0     |
+|Funkcionális specifikáció| 	  |0	    |7	    |7		     |7		|	0     |
+|       Rendszerterv      | 	  |0        |7      |7		     |7		|	0     |
+|         Frontend        | 	  |2   	    |7      |7	       	     |0		|	7     |
+|         Backend         | 	  |2	    |7      |7		     |0		|	7     |
 ---
 ## 3. Üzleti folyamatok modellje
 * Üzleti szereplők:
@@ -28,13 +48,60 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 ![Folyamatábra](./resource/folyamatabra.png)
 ---
 ## 4. Követelmények
+* Funkcionális követelmények:
+    * Felhasználó tudja a szavakat mozgatni, hogy az angol szót a magyar megfelelőjével tudja párosítani
+    * Felhasználó csak a kijelölt helyre tudja mozgatni a szavakat
+    * Egy gomb segítségével tudja ellenőrizni a felhasználó, a megoldásait
+    * Ellenőrző gomb lenyomásával pedig az oldal meg mondja, hogy a megoldás hibátlan vagy hibás
+    * Egy másik gombbal pedig előröl tudja kezdeni a szavak húzgálását
+    * Legyen egy külön felület ahol angol-magyar szavakat lehet a rendszerbe bevinni még
+    * Lehessen szavakat kivenni
+    * A weboldal a legtöbb böngészőt támogassa
+    * A weboldalt lehessen telefonon is használni
+    * Egyszerűen legyen kezelhető az oldal	
 
+* Nem funkcionális követelmények:
+    * Felhasználók adatait ne tárolhassák el, illetve felhasználó ne tárolhasson adatokat
+    * Felhasználót ne lehessen azonosítani
+
+* Törvényi előírások, szabványok:
+    * GDPR-nek való megfelelés.
 ---
 ## 5. Funkcionális terv
+* A webalkalmazásunknak az a célja, hogy az embereket segítsük az angol szavak tanulásában. 
+* Rendszerszerepkörök:
+    * Felhasználó(user)
+    * Fejlesztő
 
+* Rendszerhasználati esetek és lefutásaik:
+    * Felhasználó(user):
+        * Képes a szavakat ide-oda huzgálni
+        * Letudja ellenörizni a megoldásait
+        * Előröl tudja kezdeni a feladatot
+        * Tud magyar-angol szópárt kivenni
+        * Tud magyar-angol szópárt hozzáadni
+    * Fejlesztő:
+        * A fejlesztő végre tudja hajtani azokat a dolgokat mint a felhasználó
+        * A weboldal kódján tud változtatni és tesztelni
+
+* 1 - A felhasználó párosítja a szavakat 
+* 2 - A done lenyomásával kap egy ablakot/szöveget amiben szerepel az, hogy a feladat hibátlan vagy hibás
+![Paired page](/doc/resource/pairedPage.png)
+
+* Menü hierarchiák:
+    * Fő oldal:
+        * Feladat
+![Main page](/doc/resource/mainPage.png)
 ---
 ## 6. Fizikai környezet
+* Az alkalmazás web platformra készül így különféle eszközökön is lehet használni ha van rajtuk böngésző
+* Operációs rendszer független
+* Nincsenek megvásárolt komponenseink
+* Van tűzfal a hálózaton és minden portot is engedélyez
 
+* Fejlesztési környezet:
+    * Intellij Idea
+    * Git
 ---
 ## 7. Absztrakt domain modell
 * JSF-et fogunk használni, mert az egyszerűbb, mint  a HTML, CSS, Javasript.
