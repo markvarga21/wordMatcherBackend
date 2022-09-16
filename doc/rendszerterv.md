@@ -23,6 +23,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
     * Szópárok ellenőrzése a webalkalmazás alján található gombbal.
     * Visszajelzés a szó párosítások helyességéről egy felugró ablakban, vagy a fenti szöveges sávon.
 * Üzleti entitások:
+    * Maga a webalkalmazás (mivel maga az alkalmazás csekély méretű)
 ---
 ## 4. Követelmények
 
