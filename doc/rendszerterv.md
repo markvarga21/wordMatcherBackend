@@ -9,7 +9,27 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
  A megoldásra a felhasználó pontszámot kap.
 ---
 ## 2. Projektterv
+### Projektszerepkörök, felelősségek:
+* Scrum master: Varga József-Márk
+* Product owner: Varga József-Márk
 
+### Projektmunkások és felelőségek:
+
+* Backend munkálatok:
+    * Varga József-Márk, Bódi András, Cserés Gábor Feladatuk a funkciók létrehozása illetve adatok tárolása
+
+* Frontend:
+    * Varga József-Márk, Bódi András, Cserés Gábor Feladatuk a weboldal megjelenítése
+
+### Ütemterv:
+
+|          Funkció        |Feladat|Prioritás|Becslés|Aktuális becslés|Eltelt idő|Hátralévő idő|
+|          :----:         |:----: |  :----: | :----:|     :----:     |  :----:  |    :----:   |
+|Követelmény specifikáció |       |0	    |7      |7               |7		|       0     |
+|Funkcionális specifikáció| 	  |0	    |7	    |7		     |7		|	0     |
+|       Rendszerterv      | 	  |0        |7      |7		     |7		|	0     |
+|         Frontend        | 	  |2   	    |7      |7	       	     |0		|	7     |
+|         Backend         | 	  |2	    |7      |7		     |0		|	7     |
 ---
 ## 3. Üzleti folyamatok modellje
 
