@@ -10,17 +10,17 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 ---
 ## 2. Projektterv
 ### Projektszerepkörök, felelősségek:
-* Scrum master: Varga József-Márk
-* Product owner: Varga József-Márk
+* Scrum master: Varga József-Márk, Bódi András, Cserés Gábor
+* Product owner: Varga József-Márk, Bódi András, Cserés Gábor
 
 ### Projektmunkások és felelőségek:
 
 * Backend munkálatok:
-    * Varga József-Márk, Bódi András, Cserés Gábor Feladatuk a funkciók létrehozása illetve adatok tárolása
-
+    * Varga József-Márk, Bódi András, Cserés Gábor
+         * Feladatuk a funkciók létrehozása illetve adatok tárolása
 * Frontend:
-    * Varga József-Márk, Bódi András, Cserés Gábor Feladatuk a weboldal megjelenítése
-
+    * Varga József-Márk, Bódi András, Cserés Gábor
+         * Feladatuk a weboldal megjelenítése
 ### Ütemterv:
 
 |          Funkció        |Feladat|Prioritás|Becslés|Aktuális becslés|Eltelt idő|Hátralévő idő|
@@ -44,7 +44,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
     * Legyen egy külön felület ahol angol-magyar szavakat lehet a rendszerbe bevinni még
     * Lehessen szavakat kivenni
     * A weboldal a legtöbb böngészőt támogassa
-    * A weboldalt lehessen telefonon is használni, illetve különböző képernyőkhöz tudjon igazodni
+    * A weboldalt lehessen telefonon is használni
     * Egyszerűen legyen kezelhető az oldal	
 
 * Nem funkcionális követelmények:
@@ -58,6 +58,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 * A webalkalmazásunknak az a célja, hogy az embereket segítsük az angol szavak tanulásában. 
 * Rendszerszerepkörök:
     * Felhasználó(user)
+    * Fejlesztő
 
 * Rendszerhasználati esetek és lefutásaik:
     * Felhasználó(user):
@@ -66,9 +67,12 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
         * Előröl tudja kezdeni a feladatot
         * Tud magyar-angol szópárt kivenni
         * Tud magyar-angol szópárt hozzáadni
- 
+    * Fejlesztő:
+        * A fejlesztő végre tudja hajtani azokat a dolgokat mint a felhasználó
+        * A weboldal kódján tud változtatni és tesztelni
+
 * 1 - A felhasználó párosítja a szavakat 
-* 2 - A done lenyomásával kap egy ablakot amiben szerepel az hogy a a feladat hibátlan vagy hibás
+* 2 - A done lenyomásával kap egy ablakot/szöveget amiben szerepel az, hogy a feladat hibátlan vagy hibás
 ![Paired page](/doc/resource/pairedPage.png)
 
 * Menü hierarchiák:
@@ -77,7 +81,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 ![Main page](/doc/resource/mainPage.png)
 ---
 ## 6. Fizikai környezet
-* Az alkalmazás web platforma készül így különféle eszközökön is lehet használni ha van rajtuk böngésző
+* Az alkalmazás web platformra készül így különféle eszközökön is lehet használni ha van rajtuk böngésző
 * Operációs rendszer független
 * Nincsenek megvásárolt komponenseink
 * Van tűzfal a hálózaton és minden portot is engedélyez
