@@ -43,6 +43,9 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 ---
 ## 8. Architekturális terv
 * A webes alkalmazásunkban a backend illetve a frontend szerepét a JSF tölti be, ami alapvetően Java alapú, illetve *.xhtml* kiterjesztésű elemeket használ úgymond egyfajta frontendre (itt tudunk hivatkozni a Java osztályokban lévő adattagokra és metódusokra/osztályokra)
+* A rendszer backendje, a JSF, MySQL adatbázist fog használni, XAMPP lokális szerver hosttal.
+* Ezen kívül, használva lesz még a Spring Boot keretrendszer, illetve még a Spring Core is. Mindezeket a fejlesztés és jövőbeli bővíthetőség megkönnyítése érdekében alkalmazzunk, illetve hogy megfeleljen az ipari standardoknak.
+* A webalkalmazás host-olása Tomcat-tel lesz megoldva, amit a már fentebb is említett Spring Boot fog biztosítani.
 ---
 ## 9. Adatbázis terv
 * A szavak tárolására MySQL adatbázis rendszert fog használni a rendszer
