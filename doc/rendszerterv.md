@@ -35,6 +35,9 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 * A szavak tárolására MySQL adatbázis rendszert fog használni a rendszer
 * Tekintve, hogy az alkalmazás kis méretű, az adatbázis szerver lokálisan fog működni, a XAMPP eszközt használva.
 * Az alkalmazás kihelyezése után, nagy eséllyel egy nagyobb szolgáltatót fog használni az alkalmazás, az adatbázis szerver host-olására.
+* Az webalkalmazás egyetlen táblát fog használni, mivel mérete nem indokolja több tábla használatát.
+* Az adatbázis modelljének diagrammja a következő képpen néz ki:
+![Adatbázismodell](./resource/adatbazisModell.png)
 ---
 ## 10. Implementációs terv
 
