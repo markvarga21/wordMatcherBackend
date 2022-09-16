@@ -24,6 +24,8 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
     * Visszajelzés a szó párosítások helyességéről egy felugró ablakban, vagy a fenti szöveges sávon.
 * Üzleti entitások:
     * Maga a webalkalmazás (mivel maga az alkalmazás csekély méretű)
+* Szemléltető folyamatábra:
+![Folyamatábra](./resource/folyamatabra.png)
 ---
 ## 4. Követelmények
 
