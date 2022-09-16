@@ -116,6 +116,8 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 * Tekintve, hogy az alkalmazás kis méretű, az adatbázis szerver lokálisan fog működni, a XAMPP eszközt használva.
 * Az alkalmazás kihelyezése után, nagy eséllyel egy nagyobb szolgáltatót fog használni az alkalmazás, az adatbázis szerver host-olására.
 * Az webalkalmazás egyetlen táblát fog használni, mivel mérete nem indokolja több tábla használatát.
+* Az adatbázis eljárások között szerepelni fog szavak felvitele, illetve törlése az adatbázisból.
+  * A fentieken kívül pedig, le lesznek kérve, illetve filterezve is lehetnek a rekordok.
 * Az adatbázis modelljének diagrammja a következő képpen néz ki:
 ![Adatbázismodell](./resource/adatbazisModell.png)
 ---
