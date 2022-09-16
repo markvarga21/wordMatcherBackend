@@ -12,7 +12,20 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 
 ---
 ## 3. Üzleti folyamatok modellje
-
+* Üzleti szereplők:
+    * **Felhasználó**: legyen az diák, gyermek, felnőtt vagy akár tanár/oktató is.
+    * **Admin**: akinek jogosultsága van a rendszer karbantartására és szerkesztésére
+    * **Tesztelők**: lehetnek akár fejlesztők (az alpha tesztelés esetében), vagy az alkalmazás béta tesztelői, akik véletlenszerűen lettek kiválasztva a felhasználói bázisból.
+* Üzleti folyamatok:
+    * Szópárok hozzáadása az alkalmazás elektronikus szótárához, mindezt egy külön felületen, vagy egy alert (lásd a funkcionális specifikációban a jelentését) ablakban.
+    * Visszajelzés a szópárok helyes beviteléről
+    * Szó-csempék húzogatása az oldal két széléről az erre előre elkészített helyekre, vagyis a weboldal körülbelüli közepére.
+    * Szópárok ellenőrzése a webalkalmazás alján található gombbal.
+    * Visszajelzés a szó párosítások helyességéről egy felugró ablakban, vagy a fenti szöveges sávon.
+* Üzleti entitások:
+    * Maga a webalkalmazás (mivel maga az alkalmazás csekély méretű)
+* Szemléltető folyamatábra:
+![Folyamatábra](./resource/folyamatabra.png)
 ---
 ## 4. Követelmények
 
