@@ -12,7 +12,13 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 
 ---
 ## 3. Üzleti folyamatok modellje
+* Üzleti szereplők:
+    * **Felhasználó**: legyen az diák, gyermek, felnőtt vagy akár tanár/oktató is.
+    * **Admin**: akinek jogosultsága van a rendszer karbantartására és szerkesztésére
+    * **Tesztelők**: lehetnek akár fejlesztők (az alpha tesztelés esetében), vagy az alkalmazás béta tesztelői, akik véletlenszerűen lettek kiválasztva a felhasználói bázisból.
+* Üzleti folyamatok:
 
+* Üzleti entitások:
 ---
 ## 4. Követelmények
 
