@@ -161,7 +161,11 @@ Operációs rendszer: Windows 10
 
 ---
 ## 12. Telepítési terv
-
+* Adatbázis telepítése:
+  * Fejlesztés alatt:
+    * A XAMPP alkalmazást kell feltelepíteni, illetve ott felkonfigurálni a MySQL adatbázist
+  * Deploy után:
+    * Nincs szükség semmilyen telepítésre, hiszen várhatóan az adatbázis szerver egy felhőszolgáltatást használva fut (például Microsoft Azure, vagy AWS)
 ---
 ## 13. Karbantartási terv
 * Az alkalmazás folyamatos üzemeltetése és karbantartása, mely <br>
