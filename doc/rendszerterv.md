@@ -44,7 +44,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
     * Visszajelzés a szó párosítások helyességéről egy felugró ablakban, vagy a fenti szöveges sávon.
 * Üzleti entitások:
     * Maga a webalkalmazás (mivel maga az alkalmazás csekély méretű)
-* Szemléltető folyamatábra:
+* Szemléltető folyamatábra:<br>
 ![Folyamatábra](./resource/folyamatabra.png)
 ---
 ## 4. Követelmények
@@ -129,7 +129,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 * Az webalkalmazás egyetlen táblát fog használni, mivel mérete nem indokolja több tábla használatát.
 * Az adatbázis eljárások között szerepelni fog szavak felvitele, illetve törlése az adatbázisból.
   * A fentieken kívül pedig, le lesznek kérve, illetve filterezve is lehetnek a rekordok.
-* Az adatbázis modelljének diagrammja a következő képpen néz ki:
+* Az adatbázis modelljének diagrammja a következő képpen néz ki:<br>
 ![Adatbázismodell](./resource/adatbazisModell.png)
 ---
 ## 10. Implementációs terv
