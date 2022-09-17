@@ -166,6 +166,8 @@ Operációs rendszer: Windows 10
     * A XAMPP alkalmazást kell feltelepíteni, illetve ott felkonfigurálni a MySQL adatbázist
   * Deploy után:
     * Nincs szükség semmilyen telepítésre, hiszen várhatóan az adatbázis szerver egy felhőszolgáltatást használva fut (például Microsoft Azure, vagy AWS)
+* Szerver telepítése:
+  * Nincsen szükség külön szerver telepítésére és konfigurálására, hiszen mindezt megoldjak a Spring Boot, egy beépített Tomcat szerverrel, ami minden alkalmazás indulásnál elindul automatikusan
 ---
 ## 13. Karbantartási terv
 * Az alkalmazás folyamatos üzemeltetése és karbantartása, mely <br>
