@@ -169,7 +169,20 @@ Operációs rendszer: Windows 10
 
 ---
 ## 12. Telepítési terv
-
+* Adatbázis telepítése:
+  * Fejlesztés alatt:
+    * A XAMPP alkalmazást kell feltelepíteni, illetve ott felkonfigurálni a MySQL adatbázist.
+  * Deploy után:
+    * Nincs szükség semmilyen telepítésre, hiszen várhatóan az adatbázis szerver egy felhőszolgáltatást használva fut (például Microsoft Azure, vagy AWS).
+* Szerver telepítése:
+  * Nincsen szükség külön szerver telepítésére és konfigurálására, hiszen mindezt megoldjak a Spring Boot, egy beépített Tomcat szerverrel, ami minden alkalmazás indulásnál elindul automatikusan.
+* Alkalmazás telepítése:
+  * Fejlesztés alatt:
+    * Nincs szükség telepítésre, hiszen a fejlesztő környezetből (IntelliJ IDEA) elindul minden szükséges eszköz és szolgáltatás.
+  * Deploy után:
+    * Az alkalmazást be kell csomagolni egy JAR állományba az adott projektkezelő keretrendszert használna (Maven vagy Gradle), amiből egy Docker image-t kell készíteni.
+    * Ezután a fentebb is említett image-t ki kell telepíteni és konfigurálni egy felhőszolgáltatásba mint például Microsoft Azure vagy AWS.
+    * Innentől az alkalmazásunk elérhető lesz bárhonnan a webről, csupán egy böngésző kell, hogy telepítve legyen. 
 ---
 ## 13. Karbantartási terv
 * Az alkalmazás folyamatos üzemeltetése és karbantartása, mely <br>
