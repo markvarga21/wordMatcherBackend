@@ -133,6 +133,8 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 ![Adatbázismodell](./resource/adatbazisModell.png)
 ---
 ## 10. Implementációs terv
+* Mint azt fentebb is említve lett, az alkalmazásunk JSF-et fog használni a backend illetve a frontendhez is
+  * Ebből következik, hogy az implementáció az MVC (vagyis *Model View Controller*) architekturális mintát fogja használni
 
 ---
 ## 11. Tesztterv
