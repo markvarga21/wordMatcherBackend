@@ -1,0 +1,30 @@
+body {
+    background-color: #14213D;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10em;
+}
+
+.topBar {
+    background-color: #FCA311;
+    width: 100%;
+    height: 100pt;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: black;
+    font-size: 60pt;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topBar::before {
+    content: attr(data-topBarText);
+}
