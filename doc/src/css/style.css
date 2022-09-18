@@ -82,3 +82,9 @@ body {
     font-size: 30pt;
     font-style: normal;
 }
+
+.hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+    border-color: 2px solid black;
+}
