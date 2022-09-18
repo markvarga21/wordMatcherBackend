@@ -28,3 +28,24 @@ body {
 .topBar::before {
     content: attr(data-topBarText);
 }
+
+.englishWord1, .englishWord2, .englishWord3, .englishWord4 {
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+    background-color: #FCA311;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20pt;
+    font-weight: 50;
+    font-style: normal;
+    border-radius: 0.4em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.englishWord1::before, .englishWord2::before, .englishWord3::before, .englishWord4::before {
+    content: attr(data-english-word);
+}
