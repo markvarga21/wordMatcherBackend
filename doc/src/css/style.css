@@ -49,3 +49,15 @@ body {
 .englishWord1::before, .englishWord2::before, .englishWord3::before, .englishWord4::before {
     content: attr(data-english-word);
 }
+
+.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 160px;
+    margin: 10px;
+    background: white;
+    border-radius: 0.8em;
+    box-shadow: 3px 3px 3px black;
+}
