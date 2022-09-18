@@ -1,0 +1,90 @@
+body {
+    background-color: #14213D;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10em;
+}
+
+.topBar {
+    background-color: #FCA311;
+    width: 100%;
+    height: 100pt;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: black;
+    font-size: 60pt;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topBar::before {
+    content: attr(data-topBarText);
+}
+
+.englishWord1, .englishWord2, .englishWord3, .englishWord4,
+.hungarianWord1, .hungarianWord2, .hungarianWord3, .hungarianWord4 {
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+    background-color: #FCA311;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20pt;
+    font-weight: 50;
+    font-style: normal;
+    border-radius: 0.4em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.englishWord1::before, .englishWord2::before, .englishWord3::before, .englishWord4::before {
+    content: attr(data-english-word);
+}
+
+.hungarianWord1::before, .hungarianWord2::before, .hungarianWord3::before, .hungarianWord4::before {
+    content: attr(data-hungarian-word);
+}
+
+.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 160px;
+    margin: 10px;
+    background: white;
+    border-radius: 0.8em;
+    box-shadow: 3px 3px 3px black;
+}
+
+.doneButton {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    left: 13.5em;
+    width: 230px;
+    height: 70px;
+    background-color: #FCA311;
+    border: 0;
+    border-radius: 0.7em;
+    font-size: 30pt;
+    font-style: normal;
+}
+
+.hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+    border-color: 2px solid black;
+}
