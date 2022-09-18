@@ -45,7 +45,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 * Üzleti entitások:
     * Maga a webalkalmazás (mivel maga az alkalmazás csekély méretű)
 * Szemléltető folyamatábra:<br>
-![Folyamatábra](./resource/folyamatabra.png)
+![Folyamatábra](./resources/folyamatabra.png)
 ---
 ## 4. Követelmények
 * Funkcionális követelmények:
@@ -86,12 +86,12 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 
 * 1 - A felhasználó párosítja a szavakat 
 * 2 - A done lenyomásával kap egy ablakot/szöveget amiben szerepel az, hogy a feladat hibátlan vagy hibás
-![Paired page](/doc/resource/pairedPage.png)
+![Paired page](./resources/pairedPage.png)
 
 * Menü hierarchiák:
     * Fő oldal:
         * Feladat
-![Main page](/doc/resource/mainPage.png)
+![Main page](/doc/resources/mainPage.png)
 ---
 ## 6. Fizikai környezet
 * Az alkalmazás web platformra készül így különféle eszközökön is lehet használni ha van rajtuk böngésző
@@ -130,7 +130,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 * Az adatbázis eljárások között szerepelni fog szavak felvitele, illetve törlése az adatbázisból.
   * A fentieken kívül pedig, le lesznek kérve, illetve filterezve is lehetnek a rekordok.
 * Az adatbázis modelljének diagrammja a következő képpen néz ki:<br>
-![Adatbázismodell](./resource/adatbazisModell.png)
+![Adatbázismodell](./resources/adatbazisModell.png)
 ---
 ## 10. Implementációs terv
 * Mint azt fentebb is említve lett, az alkalmazásunk JSF-et fog használni a backend illetve a frontendhez is
