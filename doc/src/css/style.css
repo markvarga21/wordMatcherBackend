@@ -29,7 +29,8 @@ body {
     content: attr(data-topBarText);
 }
 
-.englishWord1, .englishWord2, .englishWord3, .englishWord4 {
+.englishWord1, .englishWord2, .englishWord3, .englishWord4,
+.hungarianWord1, .hungarianWord2, .hungarianWord3, .hungarianWord4 {
     margin: 10px;
     height: 50px;
     width: 150px;
@@ -48,6 +49,10 @@ body {
 
 .englishWord1::before, .englishWord2::before, .englishWord3::before, .englishWord4::before {
     content: attr(data-english-word);
+}
+
+.hungarianWord1::before, .hungarianWord2::before, .hungarianWord3::before, .hungarianWord4::before {
+    content: attr(data-hungarian-word);
 }
 
 .empty {
