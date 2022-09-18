@@ -66,3 +66,19 @@ body {
     border-radius: 0.8em;
     box-shadow: 3px 3px 3px black;
 }
+
+.doneButton {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    left: 13.5em;
+    width: 230px;
+    height: 70px;
+    background-color: #FCA311;
+    border: 0;
+    border-radius: 0.7em;
+    font-size: 30pt;
+    font-style: normal;
+}
