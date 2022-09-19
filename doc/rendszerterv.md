@@ -116,6 +116,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 * A különböző események kezelésére, mint például a szó-csempék húzogatása, a *draggable* attribútumot használva, JavaScript-et fogunk használni, ahol is le lesz kezelve az összes esemény.
   * Ide beleértem a következőket: csempe megfogása, annak elengedése, helyére rakása stb.
 * A webalkalmazásunk hostolására a Github Pages-t fogjuk használni, aminek köszönhetően mindíg elérhető lesz az oldal, bárhonnan a világból.
+* Az adatok tárolására, perzisztálására egy NoSQL adatbázist fog használni az alkalmazás, azon belül is a Redis-t.
 ---
 ## 9. Adatbázis terv
 * A szavak tárolására MySQL adatbázis rendszert fog használni a rendszer
