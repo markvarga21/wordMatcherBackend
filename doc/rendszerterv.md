@@ -117,6 +117,8 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
   * Ide beleértem a következőket: csempe megfogása, annak elengedése, helyére rakása stb.
 * A webalkalmazásunk hostolására a Github Pages-t fogjuk használni, aminek köszönhetően mindíg elérhető lesz az oldal, bárhonnan a világból.
 * Az adatok tárolására, perzisztálására egy NoSQL adatbázist fog használni az alkalmazás, azon belül is a Redis-t.
+* A weboldal biztonságát az biztosítja, hogy nincsenek semmilyen harmadik féltől származó sütik használva, amikkel azonosítani lehetne a felhasználót, illetve nincsenek is ilyen sütik elküldve a backendtől.
+  * Továbbá, mivel nem tárol az alkalmazás semmilyen felhasználói adatot explicit módon, ezért nincsenek GDPR szabályszegések sem.
 ---
 ## 9. Adatbázis terv
 * A szavak tárolására MySQL adatbázis rendszert fog használni a rendszer
