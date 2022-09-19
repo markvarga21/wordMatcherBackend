@@ -133,7 +133,12 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 ## 10. Implementációs terv
 * Mint azt fentebb is említettem, az alkalmazásunk HTML-t, CSS-t illetve JavaScript-et fog használni a működéséhez.
   * Ez által minimális, ám bár tisztán MVC-nek nem mondható, MVC architekturális mintát tudunk követni, ahol el tudjuk szeparálni egymástól a modellt, kontrollert és nézetet.
-
+* Függőségek kezelésére nem fogunk használni külön keretrendszert, mint lenne a Spring, hiszen kis alkalmazásról beszélünk, aminek nem feltétlen van szüksége komplex függöségekre.
+* Alkalmazásunk továbbá 3 különböző réteget fog tartalmazni:
+  * Perzisztencia réteg: ez egy olyan JavaScript fájl/osztály lesz, ahol az adatbázis műveleteket fogjuk végezni.
+    * Mint például: szavak beszúrása, törlése stb.
+  * Üzleti logika réteg: ez egyfajta validátor lesz, ami ellenőrizni fogja a szavakat, hogy helyesen lettek-e össze-párosítva és egyéb ellenőrzéseket fog végezni.
+  * Kliens réteg: ez lesz maga az *App* nevezetű JavaScript fájl, ami használja, ha explicit módon nem is (mivel a kliens réteg nem férhet hozzá közvetlenül az adatbázishoz), az összes többi réteget.  
 ---
 ## 11. Tesztterv
 * Egy alkalmazás készítésekor nagyon fontos szerepet töltenek be a teszttervek.<br>
