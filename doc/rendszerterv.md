@@ -172,7 +172,9 @@ Operációs rendszer: Windows 10
     * Mivel Redis-t használ az alkalmazás, van lehetőség ingyen adatbázis host-olásra, redis cloud-ot használva, egészen 30MB tárhelyig, ami a fejlesztésre bőven elég, hiszen csak szavakat tárolunk.
   * Deploy után:
     * Az alkalmazás kihelyezése után ajánlatos egy fizetett plan-re váltani a Redis Cloud-ban, ami lehetővé teszi több konkurens használatot, illetve nagyobb tár kapacitást.
-  
+* Szerver telepítés
+  * Nincsen szükség külön szerver telepítésére és konfigurálására, hiszen ezzel a *Github Pages* fog foglalkozni, miután ki lett helyezve oda az alkalmazás.
+ 
 ---
 ## 13. Karbantartási terv
 * Az alkalmazás folyamatos üzemeltetése és karbantartása, mely <br>
