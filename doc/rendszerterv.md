@@ -174,7 +174,11 @@ Operációs rendszer: Windows 10
     * Az alkalmazás kihelyezése után ajánlatos egy fizetett plan-re váltani a Redis Cloud-ban, ami lehetővé teszi több konkurens használatot, illetve nagyobb tár kapacitást.
 * Szerver telepítés
   * Nincsen szükség külön szerver telepítésére és konfigurálására, hiszen ezzel a *Github Pages* fog foglalkozni, miután ki lett helyezve oda az alkalmazás.
- 
+* Alkalmazás telepítése
+  * Fejlesztés alatt:
+    * Nincs szükség telepítésre, hiszen a fejlesztő környezetből (*Visual Studio Code*) van lehetőség live server nyitására is, vagy csak egyszerűen megnyitjuk az index.html oldalt egy tetszőleges webböngészőben.
+  * Deploy után:
+    * Nincs szükség semmiféle telepítésre, hiszen a Github Pages fogja nekünk host-olni az alkalmazást.
 ---
 ## 13. Karbantartási terv
 * Az alkalmazás folyamatos üzemeltetése és karbantartása, mely <br>
