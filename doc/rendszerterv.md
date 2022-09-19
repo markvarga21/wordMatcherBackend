@@ -109,16 +109,14 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 
 ---
 ## 8. Architekturális terv
-* A webes alkalmazásunkban a backend illetve a frontend szerepét a JSF tölti be, ami alapvetően Java alapú, illetve *.xhtml* kiterjesztésű elemeket használ úgymond egyfajta frontendre (itt tudunk hivatkozni a Java osztályokban lévő adattagokra és metódusokra/osztályokra)
-* A rendszer backendje, a JSF, MySQL adatbázist fog használni, XAMPP lokális szerver host-tal.
-* Ezen kívül, használva lesz még a Spring Boot keretrendszer, illetve még a Spring Core is. Mindezeket a fejlesztés és jövőbeli bővíthetőség megkönnyítése érdekében alkalmazzunk, illetve hogy megfeleljen az ipari standardoknak.
-* A webalkalmazás host-olása Tomcat-tel lesz megoldva, amit a már fentebb is említett Spring Boot fog biztosítani.
-* A frontend pedig a JSF-en belül lesz lefejlesztve, formoknak nevezett XHTML oldalakkal, amit a JSF átalakít nekünk használható oldallá
-* A design elemek, a PrimeFaces-nek köszönhetően lesznek megvalósítva, amik esetlegesen felül lesznek írva saját, általunk megírt CSS stíluslapokkal
-* Az alkalmazásban minél sűrűbben lesznek alkalmazva a SOLID alapelvek, illetve további design és architekturális minták
-  * Az MVC architekturális minta például már alapból használva lesz, mivel a JSF ezt követi
-* Az alkalmazásnak több rétege is lesz, az MVC-n kívül, mint például perzisztencia réteg, üzleti logika, kliens oldal (ezekről az Implementációs tervben lesz bővebben szó)
-* A rendszer a Spring-nek illetve a JSF-nek köszönhetően nagyon egyszerűen lesz bővíthető, illetve karbantartható.
+* A webes alkalmazásunkban nem lesz használva külön backend, hiszen az adatok manipulálására JavaScript-et fogunk használni.
+  * Továbbá, az alkalmazás kicsi mérete nem indokolja külön backend megírását
+* A weboldal tehát alapvetően HTML-et fog használni az elemek összefűzésére, CSS-t az elemek stilizálására, végezetül pedig JavaScript-ek az előbbiekben is említett elemek illetve az adatok manipulálására (ez tölti be úgymond a backend szerepét).
+  * Ennek a hármasnak köszönhetően, ha minimálisan is, szét fogjuk tudni választani az alkalmazás modelljét, annak nézetétől és úgymondd a kontrollerétől (MVC architekturális minta).
+* A különböző események kezelésére, mint például a szó-csempék húzogatása, a *draggable* attribútumot használva, JavaScript-et fogunk használni, ahol is le lesz kezelve az összes esemény.
+  * Ide beleértem a következőket: csempe megfogása, annak elengedése, helyére rakása stb.
+* A webalkalmazásunk hostolására a Github Pages-t fogjuk használni, aminek köszönhetően mindíg elérhető lesz az oldal, bárhonnan a világból.
+* Az adatok tárolására, perzisztálására egy NoSQL adatbázist fog használni az alkalmazás, azon belül is a Redis-t.
 * A weboldal biztonságát az biztosítja, hogy nincsenek semmilyen harmadik féltől származó sütik használva, amikkel azonosítani lehetne a felhasználót, illetve nincsenek is ilyen sütik elküldve a backendtől.
   * Továbbá, mivel nem tárol az alkalmazás semmilyen felhasználói adatot explicit módon, ezért nincsenek GDPR szabályszegések sem.
 ---
