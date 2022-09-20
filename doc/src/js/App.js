@@ -90,3 +90,18 @@ function hung_word_block() {
         hung_words.push(hung_w);
     }
 }
+
+function validator() {
+    score = 0;
+    var eng = getEnglishWords();
+    var hun = getHungarianWords();
+    for (var i = 0; i < 4; i++) {
+        for (var k = 0; k < 4; k++){
+            if (eng[i] == eng_words[k]) {
+                if (hun[i] == hung_words[k])
+                score++;
+            }
+        }
+    }
+    return score;
+}
