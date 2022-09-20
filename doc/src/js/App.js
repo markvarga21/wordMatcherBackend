@@ -108,3 +108,17 @@ function validator() {
     }
     return score;
 }
+
+var save_english_word = "";
+var save_english_word = "";
+var delete_hun_word = "";
+var delete_eng_word = "";
+
+function handleSaveClick() {
+    save_english_word = document.getElementById('s_eng_word').value;
+    save_hungarian_word = document.getElementById('s_hun_word').value;
+    console.log(save_english_word);
+    console.log(save_hungarian_word);
+    document.getElementById('s_eng_word').value = "";
+    document.getElementById('s_hun_word').value = "";
+}
