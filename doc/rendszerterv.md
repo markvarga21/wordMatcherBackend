@@ -121,12 +121,12 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
   * Továbbá, mivel nem tárol az alkalmazás semmilyen felhasználói adatot explicit módon, ezért nincsenek GDPR szabályszegések sem.
 ---
 ## 9. Adatbázis terv
-* A szavak tárolására MySQL adatbázis rendszert fog használni a rendszer
-* Tekintve, hogy az alkalmazás kis méretű, az adatbázis szerver lokálisan fog működni, a XAMPP eszközt használva.
-* Az alkalmazás kihelyezése után, nagy eséllyel egy nagyobb szolgáltatót fog használni az alkalmazás, az adatbázis szerver host-olására.
-* Az webalkalmazás egyetlen táblát fog használni, mivel mérete nem indokolja több tábla használatát.
+* A szavak tárolására NoSQL adatbázis rendszert fog használni a rendszer, azon belül is a Redis-t
+* Mivel a Redis lehetőséget ad ingyenes szerver és adatbázis host-ra, ezért a Redis Cloud online szolgáltatását használjuk az adatbázis hostol-ására.
+* Az alkalmazás kihelyezése után, nagy eséllyel elő lesz fizetve egy nagyobb plan, ami több tárhelyet ad.
+* Az webalkalmazás három adatszerkezetet (mivel a Redis egy memória-beli kulcs-érték adatbázis) fog használni, két listát a magyar illetve angol szavakkal, egy hash-t amiben az angol-magyar szó párosítások lesznek, és egy obszcén szavakat tartalmazó listát, hogy az új szavak bevitelénél, a felhasználó ne tudhasson bevinni csúnya, trágár szavakat.
 * Az adatbázis eljárások között szerepelni fog szavak felvitele, illetve törlése az adatbázisból.
-  * A fentieken kívül pedig, le lesznek kérve, illetve filterezve is lehetnek a rekordok.
+  * A fentieken kívül pedig, le lesznek kérve, illetve filterezve is lehetnek az elemek.
 * Az adatbázis modelljének diagrammja a következő képpen néz ki:<br>
 ![Adatbázismodell](./resources/adatbazisModell.png)
 ---
