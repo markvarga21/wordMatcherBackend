@@ -67,7 +67,10 @@ function dragEnter(e) {
 }
 
 function handleDoneClick() {
-    alert('Done pressed!');
+    eng_word_block();
+    hung_word_block();
+    var sc = validator();
+    alert("Szerzett pontszám: " + sc);
 }
 
 var eng_words = []
