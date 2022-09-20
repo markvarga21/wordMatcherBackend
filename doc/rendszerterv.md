@@ -167,20 +167,18 @@ Operációs rendszer: Windows 10
 
 ---
 ## 12. Telepítési terv
-* Adatbázis telepítése:
+* Adatbázis telepítése
   * Fejlesztés alatt:
-    * A XAMPP alkalmazást kell feltelepíteni, illetve ott felkonfigurálni a MySQL adatbázist.
+    * Mivel Redis-t használ az alkalmazás, van lehetőség ingyen adatbázis host-olásra, redis cloud-ot használva, egészen 30MB tárhelyig, ami a fejlesztésre bőven elég, hiszen csak szavakat tárolunk.
   * Deploy után:
-    * Nincs szükség semmilyen telepítésre, hiszen várhatóan az adatbázis szerver egy felhőszolgáltatást használva fut (például Microsoft Azure, vagy AWS).
-* Szerver telepítése:
-  * Nincsen szükség külön szerver telepítésére és konfigurálására, hiszen mindezt megoldjak a Spring Boot, egy beépített Tomcat szerverrel, ami minden alkalmazás indulásnál elindul automatikusan.
-* Alkalmazás telepítése:
+    * Az alkalmazás kihelyezése után ajánlatos egy fizetett plan-re váltani a Redis Cloud-ban, ami lehetővé teszi több konkurens használatot, illetve nagyobb tár kapacitást.
+* Szerver telepítés
+  * Nincsen szükség külön szerver telepítésére és konfigurálására, hiszen ezzel a *Github Pages* fog foglalkozni, miután ki lett helyezve oda az alkalmazás.
+* Alkalmazás telepítése
   * Fejlesztés alatt:
-    * Nincs szükség telepítésre, hiszen a fejlesztő környezetből (IntelliJ IDEA) elindul minden szükséges eszköz és szolgáltatás.
+    * Nincs szükség telepítésre, hiszen a fejlesztő környezetből (*Visual Studio Code*) van lehetőség live server nyitására is, vagy csak egyszerűen megnyitjuk az index.html oldalt egy tetszőleges webböngészőben.
   * Deploy után:
-    * Az alkalmazást be kell csomagolni egy JAR állományba az adott projektkezelő keretrendszert használna (Maven vagy Gradle), amiből egy Docker image-t kell készíteni.
-    * Ezután a fentebb is említett image-t ki kell telepíteni és konfigurálni egy felhőszolgáltatásba mint például Microsoft Azure vagy AWS.
-    * Innentől az alkalmazásunk elérhető lesz bárhonnan a webről, csupán egy böngésző kell, hogy telepítve legyen. 
+    * Nincs szükség semmiféle telepítésre, hiszen a Github Pages fogja nekünk host-olni az alkalmazást.
 ---
 ## 13. Karbantartási terv
 * Az alkalmazás folyamatos üzemeltetése és karbantartása, mely <br>
