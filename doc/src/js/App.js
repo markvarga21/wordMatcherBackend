@@ -81,3 +81,12 @@ function eng_word_block() {
         eng_words.push(eng_w);
     }
 }
+
+function hung_word_block() {
+    for (var i = 1; i < 5; i++) {
+        var parent = document.getElementById('hungarianWordHolder'+i+'Id');
+        var childs = parent.firstChild;
+        var hung_w = childs.getAttribute("data-hungarian-word");
+        hung_words.push(hung_w);
+    }
+}
