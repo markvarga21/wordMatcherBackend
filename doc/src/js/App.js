@@ -67,5 +67,67 @@ function dragEnter(e) {
 }
 
 function handleDoneClick() {
-    alert('Done pressed!');
+    eng_word_block();
+    hung_word_block();
+    var sc = validator();
+    alert("Szerzett pontszám: " + sc);
+}
+
+var eng_words = []
+var hung_words = []
+
+function eng_word_block() {
+    for (var i = 1; i < 5; i++) {
+        var parent = document.getElementById('englishWordHolder'+i+'Id');
+        var childs = parent.firstChild;
+        var eng_w = childs.getAttribute("data-english-word");
+        eng_words.push(eng_w);
+    }
+}
+
+function hung_word_block() {
+    for (var i = 1; i < 5; i++) {
+        var parent = document.getElementById('hungarianWordHolder'+i+'Id');
+        var childs = parent.firstChild;
+        var hung_w = childs.getAttribute("data-hungarian-word");
+        hung_words.push(hung_w);
+    }
+}
+
+function validator() {
+    score = 0;
+    var eng = getEnglishWords();
+    var hun = getHungarianWords();
+    for (var i = 0; i < 4; i++) {
+        for (var k = 0; k < 4; k++){
+            if (eng[i] == eng_words[k]) {
+                if (hun[i] == hung_words[k])
+                score++;
+            }
+        }
+    }
+    return score;
+}
+
+var save_english_word = "";
+var save_english_word = "";
+var delete_hun_word = "";
+var delete_eng_word = "";
+
+function handleSaveClick() {
+    save_english_word = document.getElementById('s_eng_word').value;
+    save_hungarian_word = document.getElementById('s_hun_word').value;
+    console.log(save_english_word);
+    console.log(save_hungarian_word);
+    document.getElementById('s_eng_word').value = "";
+    document.getElementById('s_hun_word').value = "";
+}
+
+function handleDeleteClick() {
+    delete_english_word = document.getElementById('d_eng_word').value;
+    delete_hungarian_word = document.getElementById('d_hun_word').value;
+    console.log(delete_english_word);
+    console.log(delete_hungarian_word);
+    document.getElementById('d_eng_word').value;
+    document.getElementById('d_hun_word').value;
 }
