@@ -16,6 +16,7 @@ var hungarianWords = [
 
 var empties = document.querySelectorAll('.empty');
 
+
 for (const empty of empties) {
     empty.addEventListener("dragover", dragOver);
     empty.addEventListener("dragenter", dragEnter);
@@ -30,10 +31,12 @@ for (var i = 0; i < 4; i++) {
     englishWords[i].addEventListener('dragstart', dragStart);
     englishWords[i].addEventListener('dragend', dragEnd);
     englishWords[i].setAttribute("data-english-word", englishWordsToInsert[i]);
+    englishWords[i].setAttribute("data-isempty", 'false');
 
     hungarianWords[i].addEventListener('dragstart', dragStart);
     hungarianWords[i].addEventListener('dragend', dragEnd);
     hungarianWords[i].setAttribute("data-hungarian-word", hungarianWordsToInsert[i]);
+    hungarianWords[i].setAttribute("data-isempty", 'false');
 }
 
 function dragEnd() {
@@ -67,11 +70,16 @@ function dragEnter(e) {
 }
 
 function handleDoneClick() {
+    if (isWordHoldersEmpty()){
+        alert("Még nem kell lenyomni a gombot!");
+    }
+        
     eng_word_block();
     hung_word_block();
     var sc = validator();
     alert("Szerzett pontszám: " + sc);
 }
+
 
 var eng_words = []
 var hung_words = []
@@ -130,4 +138,17 @@ function handleDeleteClick() {
     console.log(delete_hungarian_word);
     document.getElementById('d_eng_word').value;
     document.getElementById('d_hun_word').value;
+}
+
+function isWordHoldersEmpty(){
+   const emptyFields = document.querySelectorAll('.empty');
+
+   let counter = 0;
+   for(const emptyField of emptyFields){
+    if(emptyField.dataset.isempty){ 
+        counter++ ;
+    }
+   }
+   
+   return counter === 8;
 }
