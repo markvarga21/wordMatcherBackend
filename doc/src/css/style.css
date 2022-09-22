@@ -39,8 +39,8 @@ body {
     justify-content: center;
     align-items: center;
     color: black;
-    font-size: 20pt;
-    font-weight: 50;
+    font-size: 5vh;
+    font-weight: 5vw;
     font-style: normal;
     border-radius: 1vw;
     margin-top: 4vh;
@@ -79,7 +79,7 @@ body {
     background-color: #FCA311;
     border: 0;
     border-radius: 0.7em;
-    font-size: 30pt;
+    font-size: 5vh;
     font-style: normal;
 }
 
