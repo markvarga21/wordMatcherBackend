@@ -42,9 +42,9 @@ body {
     font-size: 20pt;
     font-weight: 50;
     font-style: normal;
-    border-radius: 0.4em;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    border-radius: 1vw;
+    margin-top: 4vh;
+    margin-bottom: 2vw;
 }
 
 .englishWord1::before, .englishWord2::before, .englishWord3::before, .englishWord4::before {
