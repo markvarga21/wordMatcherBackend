@@ -109,13 +109,13 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 
 ---
 ## 8. Architekturális terv
-* A webes alkalmazásunkban nem lesz használva külön backend, hiszen az adatok manipulálására JavaScript-et fogunk használni.
-  * Továbbá, az alkalmazás kicsi mérete nem indokolja külön backend megírását
-* A weboldal tehát alapvetően HTML-et fog használni az elemek összefűzésére, CSS-t az elemek stilizálására, végezetül pedig JavaScript-ek az előbbiekben is említett elemek illetve az adatok manipulálására (ez tölti be úgymond a backend szerepét).
-  * Ennek a hármasnak köszönhetően, ha minimálisan is, szét fogjuk tudni választani az alkalmazás modelljét, annak nézetétől és úgymondd a kontrollerétől (MVC architekturális minta).
+* A webes alkalmazásunkban lesz egy frontend, illetve egy minimális backend az adatbáziskapcsolat kezelésére
+  * Az alkalmazás backend-je python alapú lesz, azon belül is *Flask*-ot fog használni.
+* A weboldal tehát alapvetően HTML-t fog használni az elemek összefűzésére, CSS-t az elemek stilizálására, JavaScript-et az elemek manipulálására és a backend-del való kommunikálásra, és python backend-et a redis adatbázis kezelésére.
+  * Ennek a négyesnek köszönhetően, ha minimálisan is, szét fogjuk tudni választani az alkalmazás modelljét, annak nézetétől és úgymondd a kontrollerétől (MVC architekturális minta).
+    * A backend-en belül például szét vannak választva az app (controller), üzleti logika (service) és a perzisztencia (repository) rétegek.
 * A különböző események kezelésére, mint például a szó-csempék húzogatása, a *draggable* attribútumot használva, JavaScript-et fogunk használni, ahol is le lesz kezelve az összes esemény.
   * Ide beleértem a következőket: csempe megfogása, annak elengedése, helyére rakása stb.
-* A webalkalmazásunk hostolására a Github Pages-t fogjuk használni, aminek köszönhetően mindíg elérhető lesz az oldal, bárhonnan a világból.
 * Az adatok tárolására, perzisztálására egy NoSQL adatbázist fog használni az alkalmazás, azon belül is a Redis-t.
 * A weboldal biztonságát az biztosítja, hogy nincsenek semmilyen harmadik féltől származó sütik használva, amikkel azonosítani lehetne a felhasználót, illetve nincsenek is ilyen sütik elküldve a backendtől.
   * Továbbá, mivel nem tárol az alkalmazás semmilyen felhasználói adatot explicit módon, ezért nincsenek GDPR szabályszegések sem.
@@ -131,14 +131,17 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 ![Adatbázismodell](./resources/adatbazisModell.png)
 ---
 ## 10. Implementációs terv
-* Mint azt fentebb is említettem, az alkalmazásunk HTML-t, CSS-t illetve JavaScript-et fog használni a működéséhez.
+* Mint azt fentebb is említettem, az alkalmazásunk HTML-t, CSS-t, JavaScript-et illetve Python-t fog használni a működéséhez.
   * Ez által minimális, ám bár tisztán MVC-nek nem mondható, MVC architekturális mintát tudunk követni, ahol el tudjuk szeparálni egymástól a modellt, kontrollert és nézetet.
-* Függőségek kezelésére nem fogunk használni külön keretrendszert, mint lenne a Spring, hiszen kis alkalmazásról beszélünk, aminek nem feltétlen van szüksége komplex függöségekre.
+* Függőségek kezelésére nem feltétlen van szükség, mivel az alkalmazásban egyetlen külső python module/library van használva, a *redis*, a backend-en belül.
 * Alkalmazásunk továbbá 3 különböző réteget fog tartalmazni:
-  * Perzisztencia réteg: ez egy olyan JavaScript fájl/osztály lesz, ahol az adatbázis műveleteket fogjuk végezni.
-    * Mint például: szavak beszúrása, törlése stb.
+  * Perzisztencia réteg: ez egy python fájl lesz, ami kezeli a redis adatbázist, mely a következő funkcionalitásokkal fog rendelkezni:
+    * Mint például: szavak beszúrása
   * Üzleti logika réteg: ez egyfajta validátor lesz, ami ellenőrizni fogja a szavakat, hogy helyesen lettek-e össze-párosítva és egyéb ellenőrzéseket fog végezni.
-  * Kliens réteg: ez lesz maga az *App* nevezetű JavaScript fájl, ami használja, ha explicit módon nem is (mivel a kliens réteg nem férhet hozzá közvetlenül az adatbázishoz), az összes többi réteget. 
+    * A backend részen is lesz egy ilyen service réteg, ahol a felhasználó által bevitt szavakat ellenőrzi.
+  * Kliens réteg: ez lesz maga az *App* nevezetű JavaScript fájl, ami használja, ha explicit módon nem is, használja az összes többi réteget.
+    * A backend-et API hívásokkal éri el.
+* A backend oldalon Flask van használva, amiben egy REST API van írva, amivel majd a frontend kommunikál. 
 * Az előbbieknek köszönhetően pedig, szépen tudjuk követni az *Egyszeres Felelősség Elvét* (angolul *Single Responsibility Principle* - a SOLID elvekből az elsőt), ami lehetővé fogja tenni az alkalmazás egyszerűbb és átláthatóbb karbantartását.
 ---
 ## 11. Tesztterv
@@ -173,12 +176,12 @@ Operációs rendszer: Windows 10
   * Deploy után:
     * Az alkalmazás kihelyezése után ajánlatos egy fizetett plan-re váltani a Redis Cloud-ban, ami lehetővé teszi több konkurens használatot, illetve nagyobb tár kapacitást.
 * Szerver telepítés
-  * Nincsen szükség külön szerver telepítésére és konfigurálására, hiszen ezzel a *Github Pages* fog foglalkozni, miután ki lett helyezve oda az alkalmazás.
+  * Fejlesztés alatt:
+    * A frontend esetében elegendő ha egy Visual Studio Code-beli live server-t nyitunk meg
+    * A backend-nél pedig elegendő a fő *app.py* fájl futtatása
 * Alkalmazás telepítése
   * Fejlesztés alatt:
     * Nincs szükség telepítésre, hiszen a fejlesztő környezetből (*Visual Studio Code*) van lehetőség live server nyitására is, vagy csak egyszerűen megnyitjuk az index.html oldalt egy tetszőleges webböngészőben.
-  * Deploy után:
-    * Nincs szükség semmiféle telepítésre, hiszen a Github Pages fogja nekünk host-olni az alkalmazást.
 ---
 ## 13. Karbantartási terv
 * Az alkalmazás folyamatos üzemeltetése és karbantartása, mely <br>
