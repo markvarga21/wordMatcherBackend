@@ -59,8 +59,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
-    width: 160px;
+    height: 10vh;
+    width: 12vw;
     margin: 10px;
     background: white;
     border-radius: 1em;
