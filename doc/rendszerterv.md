@@ -131,14 +131,17 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 ![Adatbázismodell](./resources/adatbazisModell.png)
 ---
 ## 10. Implementációs terv
-* Mint azt fentebb is említettem, az alkalmazásunk HTML-t, CSS-t illetve JavaScript-et fog használni a működéséhez.
+* Mint azt fentebb is említettem, az alkalmazásunk HTML-t, CSS-t, JavaScript-et illetve Python-t fog használni a működéséhez.
   * Ez által minimális, ám bár tisztán MVC-nek nem mondható, MVC architekturális mintát tudunk követni, ahol el tudjuk szeparálni egymástól a modellt, kontrollert és nézetet.
-* Függőségek kezelésére nem fogunk használni külön keretrendszert, mint lenne a Spring, hiszen kis alkalmazásról beszélünk, aminek nem feltétlen van szüksége komplex függöségekre.
+* Függőségek kezelésére nem feltétlen van szükség, mivel az alkalmazásban egyetlen külső python module/library van használva, a *redis*, a backend-en belül.
 * Alkalmazásunk továbbá 3 különböző réteget fog tartalmazni:
-  * Perzisztencia réteg: ez egy olyan JavaScript fájl/osztály lesz, ahol az adatbázis műveleteket fogjuk végezni.
-    * Mint például: szavak beszúrása, törlése stb.
+  * Perzisztencia réteg: ez egy python fájl lesz, ami kezeli a redis adatbázist, mely a következő funkcionalitásokkal fog rendelkezni:
+    * Mint például: szavak beszúrása
   * Üzleti logika réteg: ez egyfajta validátor lesz, ami ellenőrizni fogja a szavakat, hogy helyesen lettek-e össze-párosítva és egyéb ellenőrzéseket fog végezni.
-  * Kliens réteg: ez lesz maga az *App* nevezetű JavaScript fájl, ami használja, ha explicit módon nem is (mivel a kliens réteg nem férhet hozzá közvetlenül az adatbázishoz), az összes többi réteget. 
+    * A backend részen is lesz egy ilyen service réteg, ahol a felhasználó által bevitt szavakat ellenőrzi.
+  * Kliens réteg: ez lesz maga az *App* nevezetű JavaScript fájl, ami használja, ha explicit módon nem is, használja az összes többi réteget.
+    * A backend-et API hívásokkal éri el.
+* A backend oldalon Flask van használva, amiben egy REST API van írva, amivel majd a frontend kommunikál. 
 * Az előbbieknek köszönhetően pedig, szépen tudjuk követni az *Egyszeres Felelősség Elvét* (angolul *Single Responsibility Principle* - a SOLID elvekből az elsőt), ami lehetővé fogja tenni az alkalmazás egyszerűbb és átláthatóbb karbantartását.
 ---
 ## 11. Tesztterv
