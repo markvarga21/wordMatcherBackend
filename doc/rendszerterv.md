@@ -96,7 +96,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
 * Van tűzfal a hálózaton és minden portot is engedélyez
 
 * Fejlesztési környezet:
-    * Intellij Idea
+    * Visual Studio Code
     * Git
 ---
 ## 7. Absztrakt domain modell
