@@ -18,7 +18,7 @@ body {
     top: 0;
     left: 0;
     color: black;
-    font-size: 12vh;
+    font-size: 9vh;
     font-style: normal;
     display: flex;
     align-items: center;
@@ -79,7 +79,7 @@ body {
     background-color: #FCA311;
     border: 0;
     border-radius: 0.7em;
-    font-size: 5vh;
+    font-size: 3vw;
     font-style: normal;
     margin: auto;
 }
