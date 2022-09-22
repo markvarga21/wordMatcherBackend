@@ -53,9 +53,7 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
     * Felhasználó csak a kijelölt helyre tudja mozgatni a szavakat
     * Egy gomb segítségével tudja ellenőrizni a felhasználó, a megoldásait
     * Ellenőrző gomb lenyomásával pedig az oldal meg mondja, hogy a megoldás hibátlan vagy hibás
-    * Egy másik gombbal pedig előröl tudja kezdeni a szavak húzgálását
     * Legyen egy külön felület ahol angol-magyar szavakat lehet a rendszerbe bevinni még
-    * Lehessen szavakat kivenni
     * A weboldal a legtöbb böngészőt támogassa
     * A weboldalt lehessen telefonon is használni
     * Egyszerűen legyen kezelhető az oldal	
