@@ -4,35 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/add_style.css">
     <title>Add words | Remove words</title>
-    <style>
-        .save{
-            float: left;
-            padding-left: 10%;
-        }
-        .delete{
-            float: right;
-            padding-right: 10%;
-        }
-    </style>
 </head>
 <body>
     <form>
-        <div class="save">
-            <h2>Add new word</h2>
-            <label for="s_eng_word">English word: </label>
-            <input type="text" id="s_eng_word" placeholder="English word"/><br>
-            <label for="s_hun_word">Hungarian word: </label>
-            <input type="text" id="s_hun_word" placeholder="Hungarian word"/><br>
-            <button type="button" onclick="handleSaveClick()">Click to add the new word pair</button>
-        </div>
-        <div class="delete">
-            <h2>Delete word</h2>
-            <label for="d_eng_word">English word: </label>
-            <input type="text" id="d_eng_word" placeholder="English word"/><br>
-            <label for="s_hun_word">Hungarian word: </label>
-            <input type="text" id="d_hun_word" placeholder="Hungarian word"/><br>
-            <button type="button" onclick="handleDeleteClick()">Click to remove word pair</button>
+        <div class="topBar" data-topBarText="Add some new word!"></div>
+        <div class="all">
+            <div class="save">
+                <label for="s_eng_word">English word: </label>
+                <input type="text" id="s_eng_word" placeholder="English word"/><br>
+                <label for="s_hun_word">Hungarian word: </label>
+                <input type="text" id="s_hun_word" placeholder="Hungarian word"/><br>
+                <button type="button" class="Addbutton" onclick="handleSaveClick()">Add</button>
+            </div>
         </div>
     </form>
     <script src="js/WordProvider.js"></script>
