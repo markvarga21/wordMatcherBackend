@@ -31,9 +31,9 @@ body {
 
 .englishWord1, .englishWord2, .englishWord3, .englishWord4,
 .hungarianWord1, .hungarianWord2, .hungarianWord3, .hungarianWord4 {
-    margin: 10px;
-    height: 50px;
-    width: 150px;
+    margin: 1vh;
+    height: 8vh;
+    width: 10vw;
     background-color: #FCA311;
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@ body {
     align-items: center;
     height: 10vh;
     width: 12vw;
-    margin: 1vh;
+    margin: 2vh;
     background: white;
     border-radius: 1vw;
     box-shadow: 1vh 1vh 1vh black;
