@@ -43,8 +43,8 @@ body {
     font-weight: 50;
     font-style: normal;
     border-radius: 0.4em;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .englishWord1::before, .englishWord2::before, .englishWord3::before, .englishWord4::before {
