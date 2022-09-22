@@ -75,8 +75,6 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
     * Felhasználó(user):
         * Képes a szavakat ide-oda huzgálni
         * Letudja ellenörizni a megoldásait
-        * Előröl tudja kezdeni a feladatot
-        * Tud magyar-angol szópárt kivenni
         * Tud magyar-angol szópárt hozzáadni
     * Fejlesztő:
         * A fejlesztő végre tudja hajtani azokat a dolgokat mint a felhasználó
