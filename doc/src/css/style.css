@@ -12,6 +12,7 @@ body {
     top: 25vh;
 }
 
+@media screen and (min-width: 20vw){
 .topBar {
     background-color: #FCA311;
     width: 100%;
@@ -26,6 +27,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+}
+
 
 .topBar::before {
     content: attr(data-topBarText);
