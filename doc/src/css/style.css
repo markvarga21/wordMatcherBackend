@@ -7,7 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 10em;
+    top: 25vh;
 }
 
 .topBar {
@@ -64,7 +64,7 @@ body {
     margin: 1vh;
     background: white;
     border-radius: 1vw;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 1vh 1vh 1vh black;
 }
 
 .doneButton {
