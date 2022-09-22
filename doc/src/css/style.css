@@ -19,7 +19,7 @@ body {
     left: 0;
     color: black;
     font-size: 60pt;
-    font-style: normal;
+    font-style: nor mmal;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: blue;
     font-size: 20pt;
     font-weight: 50;
     font-style: normal;
