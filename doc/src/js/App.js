@@ -135,6 +135,7 @@ var delete_eng_word = "";
 function handleSaveClick() {
     save_english_word = document.getElementById('s_eng_word').value;
     save_hungarian_word = document.getElementById('s_hun_word').value;
+    saveWordsToDatabase(save_english_word, save_hungarian_word)
     console.log(save_english_word);
     console.log(save_hungarian_word);
     document.getElementById('s_eng_word').value = "";
