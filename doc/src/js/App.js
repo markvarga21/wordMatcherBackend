@@ -141,3 +141,16 @@ function handleSaveClick() {
     document.getElementById('s_eng_word').value = "";
     document.getElementById('s_hun_word').value = "";
 }
+
+function saveWordsToDatabase(enWord, hunWord) {
+    var data = JSON.stringify({'magyar_szo': hunWord, 'angol_szo': enWord})
+
+    let xhr = new XMLHttpRequest();
+    xhr.open("POST", "http://127.0.0.1:5000/addWord");
+
+    xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    xhr.send(data);
+    xhr.onload = () => alert(xhr.responseText);
+}
