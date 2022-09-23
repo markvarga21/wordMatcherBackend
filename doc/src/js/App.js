@@ -70,7 +70,7 @@ function handleDoneClick() {
     eng_word_block();
     hung_word_block();
     var sc = validator();
-    alert("Szerzett pontszám: " + sc);
+    alert(sc);
 }
 
 var eng_words = []
