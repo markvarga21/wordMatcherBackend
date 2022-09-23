@@ -140,12 +140,3 @@ function handleSaveClick() {
     document.getElementById('s_eng_word').value = "";
     document.getElementById('s_hun_word').value = "";
 }
-
-function handleDeleteClick() {
-    delete_english_word = document.getElementById('d_eng_word').value;
-    delete_hungarian_word = document.getElementById('d_hun_word').value;
-    console.log(delete_english_word);
-    console.log(delete_hungarian_word);
-    document.getElementById('d_eng_word').value;
-    document.getElementById('d_hun_word').value;
-}
