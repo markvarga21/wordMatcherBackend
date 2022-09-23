@@ -98,6 +98,14 @@ function hung_word_block() {
     }
 }
 
+function fillDict(eng, hun) {
+    var dict = {}
+    for (var i = 0; i < 4; i++) {
+        dict[eng[i]] = hun[i]
+    }
+    return dict
+}
+
 function validator() {
     score = 0;
     var eng = getEnglishWords();
