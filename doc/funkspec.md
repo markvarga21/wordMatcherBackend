@@ -76,12 +76,13 @@
     * Illetve ha nem elég a szavak száma akkor feltud vinni pár új magyar-angol szót a rendszerbe vagyis tudja bővíteni a szótárat egy külön kis panel segítségével ahova beírhatja a magyar szót és annak az angol megfelelőjét és egy gomb segítségével fel töltheti a szótárba.
 ---
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
-* A program mindig jelzi egy adott esetnél, azaz szópárosításnál, hogy valóban angol-magyar szavak vannak-e összehúzva.
- Ha igen, akkor "Helyes szópár" kerül kiírásra, ha nem, akkor viszont "Nem megfelelő angol-magyar szópár kerül kiírásra". 
- Ha végzett a pároztatással a felhasználó, akkor az ellenőrzés gombra kattint, az ellenőrzés után pedig az újraindítás gombbal új menetet kezdhet.
----
+* A program mindig jelzi egy adott esetnél, azaz szópárosításnál, hogy valóban angol-magyar szavak vannak-e összehúzva.<br> 
+ Ha végzett a pároztatással a felhasználó, akkor a "Done" gombra kattint.<br>
+ Új szó hozzáadása esetén az "Add new word"-re kattint, ami egy másik oldalra viszi, hogy új szót<br>
+ lehessen hozzáadni.
+ ---
 ## 10. Képernyő tervek
-* Úgy nézne ki az alkalmazás, hogy a képernyő bal és jobb oldalára is le lenne rakva három-három doboz.
+* Úgy nézne ki az alkalmazás, hogy a képernyő bal és jobb oldalára is le lenne rakva négy-négy csempe.
  A bal oldalra kell behúzgálni az angol szavakat, jobb oldalra pedig a magyar szavakat. Ha a felhasználó, vagy a vendég jól párosítja a szavakat, akkor egy felugróablak fogadja majd, ami sikerességet fog mutatni,
  avagy pont az ellentétét vagyis hogy rossz volt a szavak párosítása.
 * Az alkalmazás fő oldala: ![Fő oldal](./resource/mainPage.png)
@@ -89,8 +90,7 @@
 ---
 ## 11. Forgatókönyvek
 * Futási időben egy szereplő figyelhető meg. Az alkalmazást elindítva megjelenik egy üres kezelőfelület, ezután
-A felhasználó a kezdés gombra kattintva kezdhet új játékot.
-Az alkalmazást elindítva megjelenik bal és jobb oldalon három-három
+Az alkalmazást elindítva megjelenik bal és jobb oldalon négy-négy
  doboz, és össze kell az angol és magyar szavakat pároztatnia.
 ---
 ## 12. Funkció – követelmény megfeleltetés
@@ -98,7 +98,7 @@ Az alkalmazást elindítva megjelenik bal és jobb oldalon három-három
  mik a követelményei annak, hogy elindítsuk a programunkat. A követelmények azokra az esetekre lettek felállítva amikor
  egy felhasználó rendszerezni akarja valamilyen rendszer szerint a teendőit. Ennek a legegyszerűbb esete amikor a programot
  használó személy az alapján szeretné rendszerezni teendőit, hogy mi az ami már készen van. Ez esetben a felhasználó létre
- tud hozni 3 dobozt, bal, és jobb oldalon, amikbe az angol magyar szópárok kerülnek.
+ tud hozni négy dobozt, bal, és jobb oldalon, amikbe az angol magyar szópárok kerülnek.
 ---
 ## 13. Fogalomszótár
 1. Csempe: egy szürke terület a képernyőn, ami mutatja, hogy hova kell behúzni az idegen szavas kártyákat.

@@ -6,7 +6,6 @@ könnyen el tudjon igazodni a felületeken ezért minimális felhasználói<br>
 felületet kap az alkalmazás. A tanár szerepkörrel rendelkező felhasználók<br>
 tölthetik fel az angol és magyar szópárokat a feladatba.  A rendszer csak webes felületen lesz elérhető. <br>
 Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön rendszert kell, hogy fejlesszünk.<br>
- A megoldásra a felhasználó pontszámot kap.
 ---
 ## 2. Projektterv
 ### Projektszerepkörök, felelősségek:
@@ -100,7 +99,9 @@ Az már nem cél, hogy Androidos, vagy IOS eszközön fusson, mert arra külön 
     * Git
 ---
 ## 7. Absztrakt domain modell
-* JSF-et fogunk használni, mert az egyszerűbb, mint  a HTML, CSS, Javasript.
+* HTML: A HTML egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált.
+* CSS: A CSS egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le. Weblapunk stílusát ezzel szabályozhatjuk.
+* JavaScript: A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon sokat használnak. A weblapunk programozásához fog majd kelleni.
 
 
 ---
@@ -186,7 +187,7 @@ módosításokat, valamint a környezeti feltételek változása miatt <br>
 megfogalmazott program-, és állomány módosítási igényeket is. <br>
 A szoftveren havonta szeretnénk karbantartásokat végezni, ezen felül bármilyen <br>
 felhasználói hibajelentés után azonnali helyreállítás jön. A szoftveren évente nagyobb<br>
- frissítések, módosítások fordulhatnak elő. <br>
+frissítések, módosítások fordulhatnak elő. <br>
 Idő elteltével új kategóriákat kell hozzáadni az apphoz, hogy fent tartsuk az <br>
 érdeklődési szintet.
 
