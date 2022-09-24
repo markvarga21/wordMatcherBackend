@@ -158,3 +158,7 @@ function saveWordsToDatabase(enWord, hunWord) {
 function newWordButtonClick() {
     window.location = 'add_word.html'
 }
+
+function redirectFromNewWord() {
+    window.location = 'index.html'
+}
