@@ -10,3 +10,13 @@ def getHungarianWords():
         hun = randomed_tuple[1]
         randomed_four[en] = hun
     return randomed_four
+
+def alreadyExistingPair(hungarian, english):
+    if repository.hungarianWordInUse(hungarian) or repository.englishWordInUse(english):
+        return True
+    else:
+        return False
+
+def obsceneWord(hungarian, english):
+    if repository.isObscene(hungarian) or repository.isObscene(english):
+        return True
