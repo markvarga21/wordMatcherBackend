@@ -77,13 +77,29 @@
     justify-content: center;
     align-items: center;
     bottom: 5vh;
-    left: 42.5vw;
+    left: 34vw;
     width: 15vw;
     height: 10vh;
     background-color: #FCA311;
     border: 0;
     border-radius: 0.7em;
-    font-size: 3vw;
+    font-size: 2vw;
+    font-style: normal;
+}
+
+.redirectButton {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 5vh;
+    left: 52vw;
+    width: 15vw;
+    height: 10vh;
+    background-color: #FCA311;
+    border: 0;
+    border-radius: 0.7em;
+    font-size: 2vw;
     font-style: normal;
 }
 

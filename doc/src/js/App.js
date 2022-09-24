@@ -154,3 +154,7 @@ function saveWordsToDatabase(enWord, hunWord) {
     xhr.send(data);
     xhr.onload = () => alert(xhr.responseText);
 }
+
+function newWordButtonClick() {
+    alert("clicked!")
+}
