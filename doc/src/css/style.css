@@ -77,14 +77,42 @@
     justify-content: center;
     align-items: center;
     bottom: 5vh;
-    left: 42.5vw;
+    left: 34vw;
     width: 15vw;
     height: 10vh;
     background-color: #FCA311;
     border: 0;
     border-radius: 0.7em;
-    font-size: 3vw;
+    font-size: 2vw;
     font-style: normal;
+    cursor: pointer;
+    box-shadow: 0 9px black;
+}
+
+.redirectButton {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 5vh;
+    left: 52vw;
+    width: 15vw;
+    height: 10vh;
+    background-color: #FCA311;
+    border: 0;
+    border-radius: 0.7em;
+    font-size: 2vw;
+    font-style: normal;
+    cursor: pointer;
+    box-shadow: 0 9px black;
+}
+
+.redirectButton:hover, .doneButton:hover {
+    background-color: #d78c12;
+}
+
+.redirectButton:active, .doneButton:active {
+    transform: translateY(4px);
 }
 
 .hovered {

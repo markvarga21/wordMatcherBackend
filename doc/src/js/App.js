@@ -154,3 +154,11 @@ function saveWordsToDatabase(enWord, hunWord) {
     xhr.send(data);
     xhr.onload = () => alert(xhr.responseText);
 }
+
+function newWordButtonClick() {
+    window.location = 'add_word.html'
+}
+
+function redirectFromNewWord() {
+    window.location = 'index.html'
+}

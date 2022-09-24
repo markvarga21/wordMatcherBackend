@@ -69,7 +69,7 @@ color: white;
     justify-content: center;
     align-items: center;
     top: 40vh;
-    left: 42.5vw;
+    left: 33vw;
     width: 15vw;
     height: 10vh;
     width: 230px;
@@ -79,4 +79,22 @@ color: white;
     border-radius: 0.7em;
     font-size: 30pt;
     font-style: normal;
+}
+
+.BackButton {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40vh;
+    left: 50vw;
+    width: 15vw;
+    height: 10vh;
+    width: 230px;
+    height: 70px;
+    background-color: #FCA311;
+    border: 0;
+    border-radius: 0.7em;
+    font-size: 30pt;
+    font-style: normal;  
 }
