@@ -2,6 +2,7 @@ var eng_words = []
 var hung_words = []
 
 function eng_word_block() {
+    eng_words = [];
     for (var i = 1; i < 5; i++) {
         var parent = document.getElementById('englishWordHolder'+i+'Id');
         var childs = parent.firstChild;
@@ -13,6 +14,7 @@ function eng_word_block() {
 }
 
 function hung_word_block() {
+    hung_words = [];
     for (var i = 1; i < 5; i++) {
         var parent = document.getElementById('hungarianWordHolder'+i+'Id');
         var childs = parent.firstChild;
