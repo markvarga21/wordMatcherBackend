@@ -49,8 +49,14 @@ function dragStart() {
 
 function dragDrop() {
     var elementToAdd = document.getElementById(currentWordClassName + "Id");
-    this.append(elementToAdd);
-    this.className = 'empty'
+    var emptyElement = document.getElementById(this.id)
+    var childCount = emptyElement.childNodes.length
+    if (childCount == 0) {
+        this.append(elementToAdd)
+        this.className = 'empty'
+    } else {
+        alert("Csak egyet tudsz egy helyre behúzni!")
+    }
 }
 
 function dragLeave() {
@@ -135,12 +141,43 @@ var delete_eng_word = "";
 function handleSaveClick() {
     save_english_word = document.getElementById('s_eng_word').value;
     save_hungarian_word = document.getElementById('s_hun_word').value;
-    saveWordsToDatabase(save_english_word, save_hungarian_word)
-    console.log(save_english_word);
-    console.log(save_hungarian_word);
-    document.getElementById('s_eng_word').value = "";
-    document.getElementById('s_hun_word').value = "";
+
+    const isAlphaWord = checkAlpha(save_english_word, save_hungarian_word)
+
+    if (isAlphaWord) {
+        saveWordsToDatabase(save_english_word, save_hungarian_word)
+        console.log(save_english_word);
+        console.log(save_hungarian_word);
+        document.getElementById('s_eng_word').value = "";
+        document.getElementById('s_hun_word').value = "";   
+    } else {
+        alert("A mentés nem sikerült!")
+    }
 }
+
+function checkAlpha(eng, hun) {
+    for (let i = 0; i < eng.length; i++) {
+        const c = eng[i]
+        if (!isCharacterALetter(c)) {
+            alert("A " + eng + " helytelen angol szó!")
+            return false
+        }
+    }
+
+    for (let i = 0; i < hun.length; i++) {
+        const c = hun[i]
+        if (!isCharacterALetter(c)) {
+            alert("A " + hun + " helytelen magyar szó!")
+            return false
+        }
+    }
+
+    return true
+}
+
+function isCharacterALetter(char) {
+    return (/[a-zA-Z]/).test(char)
+  }
 
 function saveWordsToDatabase(enWord, hunWord) {
     var data = JSON.stringify({'magyar_szo': hunWord, 'angol_szo': enWord})
