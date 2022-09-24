@@ -85,6 +85,8 @@
     border-radius: 0.7em;
     font-size: 2vw;
     font-style: normal;
+    cursor: pointer;
+    box-shadow: 0 9px black;
 }
 
 .redirectButton {
@@ -101,6 +103,16 @@
     border-radius: 0.7em;
     font-size: 2vw;
     font-style: normal;
+    cursor: pointer;
+    box-shadow: 0 9px black;
+}
+
+.redirectButton:hover, .doneButton:hover {
+    background-color: #d78c12;
+}
+
+.redirectButton:active, .doneButton:active {
+    transform: translateY(4px);
 }
 
 .hovered {

@@ -156,5 +156,5 @@ function saveWordsToDatabase(enWord, hunWord) {
 }
 
 function newWordButtonClick() {
-    alert("clicked!")
+    window.location = 'add_word.html'
 }
