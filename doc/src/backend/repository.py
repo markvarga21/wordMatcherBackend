@@ -14,3 +14,7 @@ def hungarianWordInUse(hungarian):
 def englishWordInUse(english):
     en_ls = rf.lrange('ENGLISH_WORDS_LIST', 0, -1)
     return english in en_ls
+
+def isObscene(word):
+    obscene_ls = rf.lrange('FORBIDDEN_OBSCENE_WORDS', 0, -1)
+    return word in obscene_ls
