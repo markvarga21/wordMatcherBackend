@@ -20,3 +20,6 @@ def alreadyExistingPair(hungarian, english):
 def obsceneWord(hungarian, english):
     if repository.isObscene(hungarian) or repository.isObscene(english):
         return True
+
+def saveWords(magyar, angol):
+    repository.saveWords(magyar, angol)
