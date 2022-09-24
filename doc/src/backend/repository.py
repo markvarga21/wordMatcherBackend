@@ -18,3 +18,11 @@ def englishWordInUse(english):
 def isObscene(word):
     obscene_ls = rf.lrange('FORBIDDEN_OBSCENE_WORDS', 0, -1)
     return word in obscene_ls
+
+def saveWords(magyar, angol):
+    rf.lpush('HUNGARIAN_WORDS_LIST', magyar)
+    rf.lpush('ENGLISH_WORDS_LIST', angol)
+    rf.hset('EN_HUN_PAIRED_HASH', angol, magyar)
+
+def getHungarianWords():
+    return rf.hgetall('EN_HUN_PAIRED_HASH')
