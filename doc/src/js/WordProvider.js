@@ -24,3 +24,12 @@ function getAllWordsFromEndpoint() {
     const obj = JSON.parse(xmlHttp.response)
     return obj
 }
+
+function getHungarianWords() {
+    console.log("Unshuffled hungarian words: " + Object.values(words))
+    let shuffled = Object.values(words).sort(function () {
+        return Math.random() - 0.5;
+    })
+    console.log("Shuffled english words: " + shuffled)
+    return shuffled
+}
