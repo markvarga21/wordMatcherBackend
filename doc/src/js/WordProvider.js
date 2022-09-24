@@ -16,3 +16,11 @@ function getEnglishWords() {
     console.log("Shuffled english words: " + shuffled)
     return shuffled
 }
+
+function getAllWordsFromEndpoint() {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "http://127.0.0.1:5000/pairedWords", false ); // false for synchronous request
+    xmlHttp.send( null );
+    const obj = JSON.parse(xmlHttp.response)
+    return obj
+}
