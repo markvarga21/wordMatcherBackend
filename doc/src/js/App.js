@@ -79,17 +79,6 @@ function handleDoneClick() {
     alert(sc);
 }
 
-function hung_word_block() {
-    for (var i = 1; i < 5; i++) {
-        var parent = document.getElementById('hungarianWordHolder'+i+'Id');
-        var childs = parent.firstChild;
-        if (childs != null) {
-            var hung_w = childs.getAttribute("data-hungarian-word");
-            hung_words.push(hung_w);
-        }
-    }
-}
-
 function fillDict(eng, hun) {
     var dict = {}
     for (var i = 0; i < 4; i++) {
