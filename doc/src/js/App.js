@@ -49,8 +49,14 @@ function dragStart() {
 
 function dragDrop() {
     var elementToAdd = document.getElementById(currentWordClassName + "Id");
-    this.append(elementToAdd);
-    this.className = 'empty'
+    var emptyElement = document.getElementById(this.id)
+    var childCount = emptyElement.childNodes.length
+    if (childCount == 0) {
+        this.append(elementToAdd)
+        this.className = 'empty'
+    } else {
+        alert("Csak egyet tudsz egy helyre behúzni!")
+    }
 }
 
 function dragLeave() {
