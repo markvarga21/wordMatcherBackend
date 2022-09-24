@@ -1,7 +1,9 @@
-function getEnglishWords() {
-    return ["apple", "car", "house", "phone"];
+const words = getAllWordsFromEndpoint()
+
+function getUnshuffledEnglishWords() {
+    return Object.keys(words);
 }
 
-function getHungarianWords() {
-    return ["alma", "autó", "ház", "telefon"];
+function getUnshuffledHungarianWords() {
+    return Object.values(words);
 }
