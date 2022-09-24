@@ -27,3 +27,6 @@ def addWord():
 
     print(magyar_szo, angol_szo)
     return f"A(z) {magyar_szo} és a(z) {angol_szo} szavak hozzá lettek adva az adatbázishoz!"
+
+if __name__ == "__main__":
+    app.run(debug=True)
