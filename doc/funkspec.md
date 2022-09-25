@@ -87,7 +87,7 @@
  avagy pont az ellentétét vagyis hogy rossz volt a szavak párosítása.
 * Az alkalmazás fő oldala: ![Fő oldal](./resources/mainPage.png)
 * Az alkalmazás egy párosítás után: ![Párosított](./resource/../resources/pairedPage.png)
-* * Az alkalmazás szó hozzáadó oldala: ![Szó hozzáadása oldal](./resources/newWordPage.png)
+* Az alkalmazás szó hozzáadó oldala: ![Szó hozzáadása oldal](./resources/newWordPage.png)
 ---
 ## 11. Forgatókönyvek
 * Futási időben egy szereplő figyelhető meg. Az alkalmazást elindítva megjelenik egy üres kezelőfelület, ezután
