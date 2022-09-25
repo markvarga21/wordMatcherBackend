@@ -41,3 +41,14 @@
 | 38. | A fő oldal reszponzívitása| Cserés Gábor | Ubuntu 20.04.1 LTS | Intel Core i5, 16GB DDR4 RAM, 1050ti | Opera | 2022.09.24. | A fő oldal jelenjen meg jól különféle méretekben | A fő oldal megjelenik rendesen különböző méretekben is |  &#10003; |
 | 39. | Az új szavak hozzáadása oldal reszponzívitása | Cserés Gábor | Ubuntu 20.04.1 LTS | Intel Core i5, 16GB DDR4 RAM, 1050ti | Opera | 2022.09.24. | Az új szavak oldal jelenjen meg megfelelően különféle méretekben | Az oldal nem reszponzív | &#10007; |
 | 40. | Már tárolt szó bevitele | Cserés Gábor | Ubuntu 20.04.1 LTS | Intel Core i5, 16GB DDR4 RAM, 1050ti | Opera | 2022.09.24. | Ne lehessen már eltárolt szavakat hozzáadni az adatbázishoz | Már eltárolt szavakat nem lehet az adatbázishoz adni | &#10003; |
+
+| 41. | Magyar szó mellé magyar | Bódi András | Windows 10 | Intel Core i5, 16GB DDR4 RAM, 1050ti | Chrome | 2022.09.25. | Hibaüzenet, nem lehet magyar magyar szó mellé |  | &#10003; |
+| 42. | Magyar szó mellé magyar | Bódi András | Windows 10 | Intel Core i5, 16GB DDR4 RAM, 1050ti | MS Edge | 2022.09.25. | Hibaüzenet, nem lehet magyar magyar szó mellé |  | &#10003; |
+| 43. | Magyar csúnya szó bevitele | Bódi András | Windows 10 | Intel Core i5, 16GB DDR4 RAM, 1050ti | Chrome | 2022.09.25. | Nem engedi, hogy csúnya szavakat adjunk hozzá |  | &#10003; |
+| 44. | Angol csúnya szó bevitele | Bódi András | Windows 10 | Intel Core i5, 16GB DDR4 RAM, 1050ti | Chrome | 2022.09.25. | Nem engedi, hogy csúnya szavakat adjunk hozzá |  | &#10003; |
+| 45. | Szám bevitele | Bódi András | Windows 10 | Intel Core i5, 16GB DDR4 RAM, 1050ti | Chrome | 2022.09.25. | Nem engedi, hogy számokat adjunk hozzá |  | &#10003; |
+| 46. | Jelek bevitele | Bódi András | Windows 10 | Intel Core i5, 16GB DDR4 RAM, 1050ti | Chrome | 2022.09.25. | Nem engedi, hogy jeleket adjunk hozzá |  | &#10003; |
+| 47. | 2 magyar szó bevitele | Bódi András | Windows 10 | Intel Core i5, 16GB DDR4 RAM, 1050ti | Chrome | 2022.09.25. | Nem engedi, hogy 2 magyar szót adjunk be |  | &#10003; |
+| 48. | 2 angol szó bevitele | Bódi András | Windows 10 | Intel Core i5, 16GB DDR4 RAM, 1050ti | Chrome | 2022.09.25. | Nem engedi, hogy 2 angol szót adjunk be |  | &#10003; |
+| 49. | Helytelen párosítások | Bódi András | Windows 10 | Intel Core i5, 16GB DDR4 RAM, 1050ti | Chrome | 2022.09.25. | Alert arra, hogy nem helyesek a párosítások |  | &#10003; |
+| 50. | Már tárolt szó bevitele | Cserés Gábor | Ubuntu 20.04.1 LTS | Intel Core i5, 16GB DDR4 RAM, 1050ti | Opera | 2022.09.24. | Ne lehessen már eltárolt szavakat hozzáadni az adatbázishoz | Már eltárolt szavakat nem lehet az adatbázishoz adni | &#10003; |
