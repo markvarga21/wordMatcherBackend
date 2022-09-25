@@ -1,4 +1,4 @@
-# **Funkcionális specifikáció**
+# **Rendsazerterv**
 ## 1. A rendszer célja
 * A rendszer célja, hogy a felhasználó gyakorolhassa az angol nyelvet, hiszen ez a mai világban már nélkülözhetetlen <br>
 mivel ez a legjobban beszélt nyelv, és a legtöbb cég, vállalat angol. Fontos, hogy a felhasználó<br>
@@ -163,7 +163,7 @@ felvezetik a tapasztalataikat, és azt visszaküldik a fejlesztőknek, a fejlesz
 
 * Tesztelésre használt eszközök
 Böngészők: Google Chrome , Mozilla Firefox, Microsoft Edge <br>
-Operációs rendszer: Windows 10 
+Operációs rendszer: Windows 10, Ubuntu
 
 ---
 ## 12. Telepítési terv
