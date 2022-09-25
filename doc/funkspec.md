@@ -9,7 +9,7 @@
 * Az alkalmazásunknak nem célja hogy:
     * Más platformokon müködjön
     * Több oldalt is kezeljen
-    * További nyelvek használjon
+    * További nyelveket használjon
     * A2-es szintnél magasabb nyelvtudást szerezzen az illető diák/személy
 ---
 ## 2. Jelenlegi helyzet leírása
@@ -102,4 +102,4 @@ Az alkalmazást elindítva megjelenik bal és jobb oldalon négy-négy
 ## 13. Fogalomszótár
 1. Csempe: egy szürke terület a képernyőn, ami mutatja, hogy hova kell behúzni az idegen szavas kártyákat.
 2. Ide-oda húzogatós megoldás: ez egy olyan módszer, angol kifejezéssel élve *drag and drop*, hogy valamire rákattintunk, azt nyomva tartjuk, és ezáltal át tudjuk húzni egy másik pontba, esetünkben a szó lefordított párja mellé, középre.
-3. Alert ablak: a modern böngészők által közseretetten használt megoldás, arra hogy jelezzenek valami apróságot a felhasználónak. Ez általában egy kis ablakocska szokott lenni, ami a böngésző oldal tetejének a közepéből szokott lenyílni ugymond.
+3. Alert ablak: a modern böngészők által közszeretetten használt megoldás, arra hogy jelezzenek valami apróságot a felhasználónak. Ez általában egy kis ablakocska szokott lenni, ami a böngésző oldal tetejének a közepéből szokott lenyílni ugymond.
