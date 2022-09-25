@@ -1,4 +1,4 @@
-# **Rendsazerterv**
+# **Rendszerterv**
 ## 1. A rendszer célja
 * A rendszer célja, hogy a felhasználó gyakorolhassa az angol nyelvet, hiszen ez a mai világban már nélkülözhetetlen <br>
 mivel ez a legjobban beszélt nyelv, és a legtöbb cég, vállalat angol. Fontos, hogy a felhasználó<br>
