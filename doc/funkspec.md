@@ -85,8 +85,9 @@
 * Úgy nézne ki az alkalmazás, hogy a képernyő bal és jobb oldalára is le lenne rakva négy-négy csempe.
  A bal oldalra kell behúzgálni az angol szavakat, jobb oldalra pedig a magyar szavakat. Ha a felhasználó, vagy a vendég jól párosítja a szavakat, akkor egy felugróablak fogadja majd, ami sikerességet fog mutatni,
  avagy pont az ellentétét vagyis hogy rossz volt a szavak párosítása.
-* Az alkalmazás fő oldala: ![Fő oldal](./resource/mainPage.png)
-* Az alkalmazás egy párosítás után: ![Párosított](./resource/pairedPage.png)
+* Az alkalmazás fő oldala: ![Fő oldal](./resources/mainPage.png)
+* Az alkalmazás egy párosítás után: ![Párosított](./resource/../resources/pairedPage.png)
+* Az alkalmazás szó hozzáadó oldala: ![Szó hozzáadása oldal](./resources/newWordPage.png)
 ---
 ## 11. Forgatókönyvek
 * Futási időben egy szereplő figyelhető meg. Az alkalmazást elindítva megjelenik egy üres kezelőfelület, ezután
