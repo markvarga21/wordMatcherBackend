@@ -95,9 +95,7 @@ Az alkalmazást elindítva megjelenik bal és jobb oldalon négy-négy
 ---
 ## 12. Funkció – követelmény megfeleltetés
 * A funkció magát a projektnek a működését, funkcióját mutatja be, míg a követelmény a szabályt, és azt, hogy
- mik a követelményei annak, hogy elindítsuk a programunkat. A követelmények azokra az esetekre lettek felállítva amikor
- egy felhasználó rendszerezni akarja valamilyen rendszer szerint a teendőit. Ennek a legegyszerűbb esete amikor a programot
- használó személy az alapján szeretné rendszerezni teendőit, hogy mi az ami már készen van. Ez esetben a felhasználó létre
+ mik a követelményei annak, hogy elindítsuk a programunkat.  Ez esetben a felhasználó létre
  tud hozni négy dobozt, bal, és jobb oldalon, amikbe az angol magyar szópárok kerülnek.
 ---
 ## 13. Fogalomszótár
